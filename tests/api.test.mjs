@@ -23,6 +23,8 @@ test('HTTP: independent clients complete real three-player game', {skip:!base,ti
   const created=await api('create',{name:'Ada',settings:{}});assert.equal(created.status,200);assert.equal(created.room.settings.circuits,1);const code=created.room.code;
   const [b,c]=await Promise.all(['Bora','Cem'].map(name=>api('join',{code,name})));assert.equal(b.status,200);assert.equal(c.status,200);
   const clients=[created,b,c],tokens=clients.map(c=>c.token);
+  const demoCommand=await api('demoStep',{code,epoch:created.room.epoch},created.token);assert.equal(demoCommand.status,400);
+  const normal=await api('get',{code,demo:true},created.token);assert.equal(normal.room.demo,undefined);
   const forbidden=await api('get',{code},'fake');assert.equal(forbidden.status,403);
   const nonhost=await api('start',{code},b.token);assert.equal(nonhost.status,400);
   await Promise.all(tokens.map(token=>api('ready',{code},token)));

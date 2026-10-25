@@ -68,7 +68,21 @@ GitHub'da Settings → Pages → Source: **GitHub Actions** seçilir. `main` dal
 
 HTTP testleri için çalışan yerel sunucu üzerinde `TEST_BASE_URL=http://127.0.0.1:5174` ortam değişkeniyle `node --test tests/api.test.mjs` çalıştırın. Testler kendi masalarını oluşturur; üretimde çalıştırmak yerine yerel veritabanını kullanın.
 
-`npm run test:http` ise derlenmiş Worker'ı ayrı bir geçici yerel D1 veritabanıyla açar, iki HTTP senaryosunu çalıştırır ve test sunucusunu kapatır. CI bu komutu da çalıştırır.
+`npm run test:http` ise derlenmiş Worker'ı ayrı bir geçici yerel D1 veritabanıyla açar, üç HTTP senaryosunu çalıştırır ve test sunucusunu kapatır. CI bu komutu da çalıştırır.
+
+## Demo Masası ve davetler
+
+Üstteki **Demo Masası** butonu herkes için görünür; hesap veya yönetici girişi gerekmez. Tek tıklamada senin ve beş botun yer aldığı, bu cihazda çalışan bir örnek oyun açılır. Rastgele oyun, Bahçıvan zaferi, Kösto zaferi, çözülen eşitlik, iki kez eşitlik, iki Kösto ve bağlantı kaybı senaryoları vardır.
+
+Demo aynı oyun kurallarını ayrı örnek kelimelerle kullanır. Botlar sırayla konuşmayı bitirir ve senaryoya uygun, kendilerine verilemeyen geçerli oylar kullanır. Oyuncu ve tur sayısı değiştirilebilir; akış 1×/2×/4×/8× hızda izlenebilir, duraklatılabilir veya birer aşama ilerletilebilir. “Benim hamlelerim de otomatik” kapatılırsa kendi sıranda ve oylamada sen oynarsın. Roller ve bot hamleleri isteğe bağlı ayrıntılarda incelenebilir.
+
+Demo canlı masa açmaz, sunucuya bot kaydetmez ve diğer oyuncuların oyunlarını etkilemez. Normal bir masadayken demo ayrı sekmede açılır. Demo bağlantıları `?demo=...` kullanır; yenilemek yeni bir örnek oyun başlatır. Demo, gerçek telefon, internet veya mikrofon bağlantısını doğrulayan bir cihaz testi değildir.
+
+Normal bekleme odasında davet koduna ek olarak **QR kod** gösterilir. Kod, aynı masanın tam davet bağlantısını içerir ve tarayıcıda üretilir; harici QR servisine bilgi gönderilmez. QR görselleri bağımsız bir okuyucuyla çözülerek doğru alan adı, `/kosto/` yolu ve masa kodu için kontrol edilir.
+
+Hata, kopyalama ve mikrofon bildirimleri piksel karakterli popup'larda gösterilir. Popup kapatılana kadar okunabilir; Escape, kapatma veya “Tamamdır” düğmesiyle kapanır ve klavye odağı geri döner. Aynı arka plan bağlantı hatası sürekli yeniden açılmaz. Formlar, tarayıcının yerleşik balonları yerine bu ortak bildirimi kullanır.
+
+GISM 🤝 SPTLS ortak yapımı yazısı, her ekranda demo düğmesinin yanında yer alır.
 
 ## Mimari ve gizlilik
 
@@ -76,12 +90,12 @@ HTTP testleri için çalışan yerel sunucu üzerinde `TEST_BASE_URL=http://127.
 - `lib/game.mjs`: saat ve rastgelelik enjekte edilebilen sunucu oyun motoru. `lib/store.ts`: D1 saklama, üyelik ve sürüm koşullu yazma. Aynı sürüm üzerinde yarışan hamleler tekrar okunur; aynı oylama iki kez çözülmez.
 - Saatler sunucudadır. 1,5 saniyelik durum sorguları kurucunun cihazına ihtiyaç duymadan akışı ilerletir. Kimse bağlı değilken zaman aşımı ilk sonraki istekte hesaplanır.
 - Her üyeye tahmin edilemeyen oturum belirteci verilir. Belirteç tarayıcıda bu siteye ait yerel depolamada; SHA-256 özeti sunucu durumunda tutulur. Kod üyelik kimliği değildir. Aynı cihazdan dönülür; tarayıcı verisi silinirse kimlik geri alınamaz.
-- İstemciye aktif çiftin tamamı, çift kimliği, diğerlerinin kelimeleri veya gizli rolleri gönderilmez. Oyun verisi sunucu tarafındadır; `data/words.json` halka açık statik klasörde değildir. Yerel efektler ve fontlar paketle gelir.
+- Canlı oyunda istemciye aktif çiftin tamamı, çift kimliği, diğerlerinin kelimeleri veya gizli rolleri gönderilmez. Canlı oyun verisi sunucu tarafındadır; `data/words.json` halka açık statik klasörde değildir. Demo için sekiz ayrı örnek çift ve yerel oyun kuralları tarayıcıya eklenir; bunlar canlı masanın kelimesini veya rollerini içermez. Yerel efektler ve fontlar paketle gelir.
 - 25 sn haber alınmayan kişi bağlantısız görünür. 120 sn sonunda aktif oyundan elenir; geç dönüş canlandırmaz. Lobide boşalan yere kapasite varsa yeniden katılabilir. Kurucu açıkça ayrılırsa yönetim başka bir oyuncuya geçer.
 - Masalar 24 saat sonra kapanır; sonraki masa açılışlarında süresi dolmuş kayıtlar temizlenir. İsim dışında profil bilgisi istenmez; üyelik belirteci, hazır/bağlantı durumu ve oyun hamleleri saklanır. Arkadaş grupları için hazırlanmıştır; hesap/IP yasağı veya geniş ölçekli kötüye kullanım koruması içermez.
 
 ## Doğrulama
 
-30 oyun/veri/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Ayrıca TypeScript kontrolü, Worker/Pages üretim derlemeleri ve yerel tarayıcıda masa kurma/hazır olma/tema değiştirme kontrol edildi. Pages paketinin `/kosto/` yolları, fontları ve sunucu verilerini içermemesi ayrıca denetlenir.
+43 oyun/veri/demo/QR/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
 
 Kelime havuzunun seçim ölçütleri, kategori dağılımı ve editoryal sınırları: [data/WORDS.md](data/WORDS.md).

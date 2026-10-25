@@ -3,10 +3,12 @@ import { useEffect, useRef, useState } from 'react';
 import { Headphones, Mic, MicOff, Volume2, VolumeX } from 'lucide-react';
 import type { Room } from '@/lib/types';
 type Link={pc:RTCPeerConnection,sender:RTCRtpSender,audio:HTMLAudioElement,ice:RTCIceCandidateInit[]};
-export default function Voice({room,call}:{room:Room,call:(action:string,payload?:Record<string,any>,quiet?:boolean)=>Promise<Room>}) {
+export default function Voice({room,call,onNotice}:{room:Room,call:(action:string,payload?:Record<string,any>,quiet?:boolean)=>Promise<Room>,onNotice?:(message:string)=>void}) {
   const [mic,setMic]=useState(false),[muted,setMuted]=useState(false),[error,setError]=useState(''),[busy,setBusy]=useState(false);
   const links=useRef(new Map<string,Link>()),seen=useRef(new Set<string>()),stream=useRef<MediaStream|null>(null),latest=useRef(room),deaf=useRef(muted),queue=useRef(Promise.resolve()),alive=useRef(true),requestVersion=useRef(0);
   latest.current=room;deaf.current=muted;
+  const notice=useRef(onNotice);notice.current=onNotice;
+  useEffect(()=>{if(error)notice.current?.(error);},[error]);
   const joined=!!room.voice?.joined,canSpeak=room.phase==='speaking'&&room.speaker?.id===room.selfId&&!!room.me?.alive;
   const stop=()=>{requestVersion.current++;stream.current?.getTracks().forEach(t=>t.stop());stream.current=null;for(const l of links.current.values())void l.sender.replaceTrack(null);if(alive.current)setMic(false);};
   const closeAll=()=>{stop();for(const l of links.current.values()){l.pc.close();l.audio.pause();l.audio.srcObject=null;}links.current.clear();seen.current.clear();};
@@ -55,6 +57,6 @@ export default function Voice({room,call}:{room:Room,call:(action:string,payload
   }
   return <div className="panel voice-panel"><h3><Headphones size={18}/> Bahçenin sesi</h3><p>{!joined?'Önce dinlemeye katıl. Sıra sana geldiğinde mikrofonunu kendin açarsın.':canSpeak?'Söz sende. İstersen mikrofonunu aç.':'Dinliyorsun. Mikrofon sadece kendi sıranda açılır.'}</p>
     {!joined?<button className="button secondary full" disabled={busy} onClick={async()=>{setBusy(true);setError('');try{await call('voice',{enabled:true},true);}catch(e){setError((e as Error).message);}finally{setBusy(false);}}}><Headphones size={16}/> Sesli sohbete katıl</button>:<><div className="voice-actions"><button className={`button ${mic?'primary':'secondary'} grow`} disabled={!canSpeak||busy} onClick={toggleMic}>{mic?<MicOff size={15}/>:<Mic size={15}/>} {mic?'Mikrofonu kapat':'Mikrofonu aç'}</button><button className="button secondary" aria-label={muted?'Dinlemeyi aç':'Sesi kapat'} onClick={()=>{setMuted(!muted);for(const l of links.current.values())void l.audio.play().catch(()=>{});}}>{muted?<VolumeX size={16}/>:<Volume2 size={16}/>}</button></div><div className="voice-peers">{room.voice?.peers.map(p=><span className={room.phase==='speaking'&&p.id===room.speaker?.id?'speaking':''} key={p.id}>{p.name}</span>)}</div><button className="text-button" onClick={()=>{closeAll();void call('voice',{enabled:false},true).catch(e=>setError(e.message));}}>Sesten ayrıl</button><button className="text-button" style={{marginLeft:15}} onClick={()=>{setMuted(false);setError('');for(const l of links.current.values()){l.audio.muted=latest.current.phase!=='speaking'||latest.current.speaker?.id!==[...links.current].find(([,v])=>v===l)?.[0];void l.audio.play().catch(()=>setError('Tarayıcı sesi başlatamadı.'));}}}>Dinlemeyi aç</button></>}
-    {error&&<p className="voice-error" role="status">{error}</p>}<small className="muted" style={{fontSize:9,display:'block',marginTop:12}}>Kulaklık önerilir. Ses kaydedilmez. Bazı ağlar doğrudan ses bağlantısına izin vermeyebilir.</small>
+    {error&&!onNotice&&<p className="voice-error" role="status">{error}</p>}<small className="muted" style={{fontSize:9,display:'block',marginTop:12}}>Kulaklık önerilir. Ses kaydedilmez. Bazı ağlar doğrudan ses bağlantısına izin vermeyebilir.</small>
   </div>;
 }
