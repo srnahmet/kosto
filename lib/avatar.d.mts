@@ -1,0 +1,14 @@
+import type { Avatar } from './types';
+type Choice={id:string;name:string};
+type Color=Choice&{hex:string};
+type Storage={getItem:(key:string)=>string|null;setItem:(key:string,value:string)=>void};
+export const AVATAR_KEY:string;
+export const CHARACTERS:Choice[];
+export const HATS:Choice[];
+export const AVATAR_COLORS:Record<'skin'|'fur'|'outfit'|'hat',Color[]>;
+export const DEFAULT_AVATAR:Readonly<Avatar>;
+export function normalizeAvatar(value:unknown):Avatar;
+export function readAvatar(storage:Pick<Storage,'getItem'>):Avatar;
+export function writeAvatar(storage:Pick<Storage,'setItem'>,value:unknown):boolean;
+export function sameAvatar(a:unknown,b:unknown):boolean;
+export function avatarColor(part:keyof typeof AVATAR_COLORS,id:string):string;

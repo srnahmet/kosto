@@ -26,6 +26,12 @@ Vampir Köylü'nün masa kurma ve telefondan katılma alışkanlığını, ferah
 - **2 Kösto** seçilebilir; başlamak için en az **6 gerçek oyuncu** gerekir. Köstoların birbirini tanıması ve kendi rolünü bilme ayrı ayarlardır; ikisi de varsayılan kapalıdır. Birbirini tanıma açılırsa kendi rolü de dolaylı olarak anlaşılır.
 - Kelime kategorisi ve zorluk filtresi vardır. Dört cihaz-yerel tema: Turkuaz Bahçe, Şeftali Sabahı, Lavanta Düşü, Gökyüzü. Efekt sesleri varsayılan kapalıdır.
 
+## Karakterini özelleştir
+
+Masaya girdikten sonra üstteki **Karakterim** düğmesinden, lobide ayrıca kendi karakterine dokunarak görünümünü değiştirebilirsin. Üç karakter tipi (Klasik, Pofuduk, Minik), şapkasız görünüm dahil dört şapka seçeneği ve ten/karakter/kıyafet/şapka için dörder renk vardır. Canlı önizleme, kaydetme ve vazgeçme desteklenir.
+
+Seçimler `kosto.avatar.v1` anahtarıyla bu siteye ait localStorage içinde saklanır; yenilemede, demoda ve yeni masalarda hatırlanır. Aynı cihazda aynı tarayıcı profili ve alan adı gerekir; tarayıcı verisi silinirse sıfırlanır. Masa üyelerine yalnızca izin verilen kozmetik kimlikler gönderilir. Her üye yalnızca kendi görünümünü güncelleyebilir; rol, oy, süre ve hazır durumu bundan etkilenmez. Eski masalarda görünüm verisi yoksa varsayılan karakter gösterilir.
+
 ## Mikrofon
 
 Masa kurulurken isteğe bağlı ve varsayılan kapalıdır. Herkes ayrıca sesli sohbete katılır. Bu işlem mikrofon izni istemez; mikrofon yalnızca kendi söz sırası sırasında düğmeye basınca açılır. Aşama/söz değişince, süre dolunca, kişi elenince, sesten ayrılınca veya sekme arka plana geçince yerel ses izleri durdurulur. Sonraki sözde kendiliğinden açılmaz. Alıcılar yalnızca o anki konuşmacının sesini dinler.
@@ -96,6 +102,6 @@ GISM 🤝 SPTLS ortak yapımı yazısı, her ekranda demo düğmesinin yanında 
 
 ## Doğrulama
 
-43 oyun/veri/demo/QR/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
+51 oyun/veri/demo/QR/karakter/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Karakter kontrolleri yerel kaydı, bozuk/engelli depolamayı, eski masaları, yalnızca kendi görünümünü değiştirme yetkisini ve rövanşta korumayı kapsar; bağımsız HTTP istemcileri de karakter paylaşımını ve yetkisiz değişikliklerin reddedilmesini doğrular. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
 
 Kelime havuzunun seçim ölçütleri, kategori dağılımı ve editoryal sınırları: [data/WORDS.md](data/WORDS.md).

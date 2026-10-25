@@ -11,7 +11,7 @@ export async function operate(body: Record<string, any>, token: string) {
   const db=env.DB.withSession('first-primary');
   if(body.action==='create') {
     const s=settings(body.settings), now=Date.now(), secret=crypto.randomUUID()+crypto.randomUUID();
-    const host=member(crypto.randomUUID(),await hash(secret),s.hostPlays?body.name:'Masa sahibi',s.hostPlays,now);
+    const host=member(crypto.randomUUID(),await hash(secret),s.hostPlays?body.name:'Masa sahibi',s.hostPlays,now,body.avatar);
     for(let i=0;i<5;i++) {
       const c=code(), r=createRoom(c,host,s,now);
       const insert=await db.prepare('INSERT OR IGNORE INTO kosto_rooms(code,state,version,expires_at) VALUES(?,?,0,?)').bind(c,JSON.stringify(r),r.expiresAt).run();
@@ -38,7 +38,7 @@ export async function operate(body: Record<string, any>, token: string) {
         if(players(r).length>=16) throw new GameError('Masa dolu. En fazla 16 oyuncu katılabilir.');
         if(r.members.length>=40) throw new GameError('Bu masa katılım sınırına ulaştı.');
         if(r.members.some((p:any)=>p.playing&&!p.kicked&&p.name.toLocaleLowerCase('tr')===String(body.name).trim().toLocaleLowerCase('tr'))) throw new GameError('Bu isim masada kullanılıyor. Başka bir isim seç.');
-        secret=crypto.randomUUID()+crypto.randomUUID();actor=member(crypto.randomUUID(),await hash(secret),body.name,true,now);r.members.push(actor);
+        secret=crypto.randomUUID()+crypto.randomUUID();actor=member(crypto.randomUUID(),await hash(secret),body.name,true,now,body.avatar);r.members.push(actor);
       } else if(r.phase==='lobby'&&!actor.playing&&actor.id!==r.hostId) { if(players(r).length>=16) throw new GameError('Masa dolu.');actor.playing=true;actor.alive=true; }
     }
     if(!actor||actor.kicked) throw new GameError('Bu masaya yeniden katılmalısın.',403);

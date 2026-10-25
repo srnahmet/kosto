@@ -20,8 +20,9 @@ test('HTTP: Pages preflight, allowed origin and cross-origin membership', {skip:
   await api('leave',{code:c.room.code},c.token);
 });
 test('HTTP: independent clients complete real three-player game', {skip:!base,timeout:90000},async()=>{
-  const created=await api('create',{name:'Ada',settings:{}});assert.equal(created.status,200);assert.equal(created.room.settings.circuits,1);const code=created.room.code;
-  const [b,c]=await Promise.all(['Bora','Cem'].map(name=>api('join',{code,name})));assert.equal(b.status,200);assert.equal(c.status,200);
+  const avatar={character:'tiny',hat:'beanie',skin:'cocoa',fur:'rose',outfit:'sky',hatColor:'blue'};
+  const created=await api('create',{name:'Ada',settings:{},avatar});assert.equal(created.status,200);assert.equal(created.room.settings.circuits,1);const code=created.room.code;assert.deepEqual(created.room.members[0].avatar,avatar);
+  const [b,c]=await Promise.all(['Bora','Cem'].map(name=>api('join',{code,name,avatar:{...avatar,hat:'none'}})));assert.equal(b.status,200);assert.equal(c.status,200);assert.equal(b.room.members.find(p=>p.id===b.room.selfId).avatar.hat,'none');
   const clients=[created,b,c],tokens=clients.map(c=>c.token);
   const demoCommand=await api('demoStep',{code,epoch:created.room.epoch},created.token);assert.equal(demoCommand.status,400);
   const normal=await api('get',{code,demo:true},created.token);assert.equal(normal.room.demo,undefined);
@@ -29,6 +30,9 @@ test('HTTP: independent clients complete real three-player game', {skip:!base,ti
   const nonhost=await api('start',{code},b.token);assert.equal(nonhost.status,400);
   await Promise.all(tokens.map(token=>api('ready',{code},token)));
   let state=await api('start',{code},created.token);assert.equal(state.room.phase,'reveal');
+  const edited=await api('profile',{code,avatar:{...avatar,fur:'slate'},target:created.room.selfId,epoch:-1},b.token);
+  assert.equal(edited.status,200);assert.equal(edited.room.deadline,state.room.deadline);assert.deepEqual(edited.room.members[0].avatar,avatar);assert.equal(edited.room.members.find(p=>p.id===b.room.selfId).avatar.fur,'slate');
+  const unauthorized=await api('profile',{code,avatar},'fake');assert.equal(unauthorized.status,403);
   const views=await Promise.all(tokens.map(token=>api('get',{code},token)));
   assert.equal(new Set(views.map(v=>v.room.me.word)).size,2);
   for(const v of views){assert.equal(v.room.me.role,null);assert.equal(v.room.pair,null);assert.ok(v.room.members.every(p=>!('word'in p)&&!('role'in p)&&!('auth'in p)));}
