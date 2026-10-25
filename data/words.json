@@ -1,0 +1,8668 @@
+[
+  {
+    "id": "kosto-0001",
+    "a": "Deniz",
+    "b": "Havuz",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0002",
+    "a": "Okyanus",
+    "b": "Göl",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0003",
+    "a": "Nehir",
+    "b": "Dere",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0004",
+    "a": "Plaj",
+    "b": "Su parkı",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0005",
+    "a": "Ada",
+    "b": "Yarımada",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0006",
+    "a": "Liman",
+    "b": "Marina",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0007",
+    "a": "Şelale",
+    "b": "Çeşme",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0008",
+    "a": "Gemi",
+    "b": "Tekne",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0009",
+    "a": "İskele",
+    "b": "Köprü",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0010",
+    "a": "Dalga",
+    "b": "Akıntı",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0011",
+    "a": "Mercan",
+    "b": "Kaya",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0012",
+    "a": "Denizaltı",
+    "b": "Deniz uçağı",
+    "category": "Su ve kıyı",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0013",
+    "a": "Koy",
+    "b": "Körfez",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0014",
+    "a": "Boğaz",
+    "b": "Kanal",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0015",
+    "a": "Irmak",
+    "b": "Haliç",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0016",
+    "a": "Lagün",
+    "b": "Gölet",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0017",
+    "a": "Kıyı",
+    "b": "Sahil yolu",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0018",
+    "a": "Kumsal",
+    "b": "Çakıllık",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0019",
+    "a": "İskele",
+    "b": "Dalgakıran",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0020",
+    "a": "Deniz feneri",
+    "b": "Gözetleme kulesi",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0021",
+    "a": "Şamandıra",
+    "b": "Duba",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0022",
+    "a": "Can simidi",
+    "b": "Kolluk",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0023",
+    "a": "Deniz yatağı",
+    "b": "Sörf tahtası",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0024",
+    "a": "Şnorkel",
+    "b": "Dalış tüpü",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0025",
+    "a": "Palet",
+    "b": "Deniz ayakkabısı",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0026",
+    "a": "Olta",
+    "b": "Ağ",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0027",
+    "a": "Balıkçı barınağı",
+    "b": "Liman",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0028",
+    "a": "Su birikintisi",
+    "b": "Gölet",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0029",
+    "a": "Sığlık",
+    "b": "Resif",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0030",
+    "a": "Gelgit",
+    "b": "Dalga",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0031",
+    "a": "Kaplıca",
+    "b": "Hamam",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0032",
+    "a": "Pınar",
+    "b": "Kuyu",
+    "category": "Su ve kıyı",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0033",
+    "a": "İstiridye",
+    "b": "Midye",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0034",
+    "a": "Yengeç",
+    "b": "Istakoz",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0035",
+    "a": "Deniz yıldızı",
+    "b": "Denizkestanesi",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0036",
+    "a": "Denizanası",
+    "b": "Ahtapot",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0037",
+    "a": "Yelken",
+    "b": "Rüzgâr sörfü",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0038",
+    "a": "Kürek",
+    "b": "Kano",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0039",
+    "a": "Sürat teknesi",
+    "b": "Jet ski",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0040",
+    "a": "Deniz kabuğu",
+    "b": "Çakıl",
+    "category": "Su ve kıyı",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0041",
+    "a": "Dağ",
+    "b": "Tepe",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0042",
+    "a": "Orman",
+    "b": "Park",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0043",
+    "a": "Çöl",
+    "b": "Bozkır",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0044",
+    "a": "Vadi",
+    "b": "Kanyon",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0045",
+    "a": "Mağara",
+    "b": "Tünel",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0046",
+    "a": "Volkan",
+    "b": "Dağ",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0047",
+    "a": "Çayır",
+    "b": "Tarla",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0048",
+    "a": "Buzul",
+    "b": "Karlı dağ",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0049",
+    "a": "Kaya",
+    "b": "Taş",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0050",
+    "a": "Kum",
+    "b": "Toprak",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0051",
+    "a": "Bataklık",
+    "b": "Göl",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0052",
+    "a": "Uçurum",
+    "b": "Yamaç",
+    "category": "Doğa ve arazi",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0053",
+    "a": "Yayla",
+    "b": "Ova",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0054",
+    "a": "Sırt",
+    "b": "Geçit",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0055",
+    "a": "Zirve",
+    "b": "Etek",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0056",
+    "a": "Kanyon",
+    "b": "Vadi tabanı",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0057",
+    "a": "Taşlık",
+    "b": "Çakıllık",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0058",
+    "a": "Çamur",
+    "b": "Kil",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0059",
+    "a": "Kumul",
+    "b": "Tepecik",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0060",
+    "a": "Orman açıklığı",
+    "b": "Çayır",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0061",
+    "a": "Patika",
+    "b": "Orman yolu",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0062",
+    "a": "Koruluk",
+    "b": "Botanik bahçesi",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0063",
+    "a": "Çalılık",
+    "b": "Sazlık",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0064",
+    "a": "Fundalık",
+    "b": "Makilik",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0065",
+    "a": "Kaya kemeri",
+    "b": "Mağara ağzı",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0066",
+    "a": "Krater",
+    "b": "Çukur",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0067",
+    "a": "Peribacası",
+    "b": "Dikit",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0068",
+    "a": "Sarkıt",
+    "b": "Buz saçağı",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0069",
+    "a": "Yayla evi",
+    "b": "Dağ kulübesi",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0070",
+    "a": "Tarla",
+    "b": "Bostan",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0071",
+    "a": "Teras bahçe",
+    "b": "Bağ",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0072",
+    "a": "Doğa parkı",
+    "b": "Milli park",
+    "category": "Doğa ve arazi",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0073",
+    "a": "Fosil",
+    "b": "Kaya izi",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0074",
+    "a": "Çakmaktaşı",
+    "b": "Kuvars",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0075",
+    "a": "Granit",
+    "b": "Mermer",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0076",
+    "a": "Bazalt",
+    "b": "Obsidyen",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0077",
+    "a": "Turba",
+    "b": "Humus",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0078",
+    "a": "Erozyon",
+    "b": "Heyelan",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0079",
+    "a": "Fay hattı",
+    "b": "Çatlak",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0080",
+    "a": "Toprak kayması",
+    "b": "Çığ",
+    "category": "Doğa ve arazi",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0081",
+    "a": "Güneş",
+    "b": "Ay",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0082",
+    "a": "Yağmur",
+    "b": "Kar",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0083",
+    "a": "Bulut",
+    "b": "Sis",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0084",
+    "a": "Şimşek",
+    "b": "Gök gürültüsü",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0085",
+    "a": "Rüzgâr",
+    "b": "Fırtına",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0086",
+    "a": "Gökkuşağı",
+    "b": "Kutup ışıkları",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0087",
+    "a": "Yıldız",
+    "b": "Gezegen",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0088",
+    "a": "Gece",
+    "b": "Gündüz",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0089",
+    "a": "Yaz",
+    "b": "Kış",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0090",
+    "a": "İlkbahar",
+    "b": "Sonbahar",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0091",
+    "a": "Sıcak",
+    "b": "Soğuk",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0092",
+    "a": "Şemsiye",
+    "b": "Yağmurluk",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0093",
+    "a": "Dolu",
+    "b": "Karla karışık yağmur",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0094",
+    "a": "Çiseleme",
+    "b": "Sağanak",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0095",
+    "a": "Pus",
+    "b": "Duman",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0096",
+    "a": "Ay tutulması",
+    "b": "Güneş tutulması",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0097",
+    "a": "Gün doğumu",
+    "b": "Gün batımı",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0098",
+    "a": "Alacakaranlık",
+    "b": "Şafak",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0099",
+    "a": "Dolunay",
+    "b": "Hilal",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0100",
+    "a": "Kuyruklu yıldız",
+    "b": "Göktaşı",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0101",
+    "a": "Samanyolu",
+    "b": "Takımyıldız",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0102",
+    "a": "Serinlik",
+    "b": "Ayaz",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0103",
+    "a": "Kırağı",
+    "b": "Çiy",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0104",
+    "a": "Kar tanesi",
+    "b": "Buz kristali",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0105",
+    "a": "Kasırga",
+    "b": "Hortum",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0106",
+    "a": "Meltem",
+    "b": "Lodos",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0107",
+    "a": "Esinti",
+    "b": "Cereyan",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0108",
+    "a": "Nem",
+    "b": "Buğu",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0109",
+    "a": "Kar fırtınası",
+    "b": "Kum fırtınası",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0110",
+    "a": "Hava durumu",
+    "b": "Mevsim",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0111",
+    "a": "Ufuk",
+    "b": "Gökyüzü",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0112",
+    "a": "Meteor yağmuru",
+    "b": "Havai fişek",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0113",
+    "a": "Gündönümü",
+    "b": "Ekinoks",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0114",
+    "a": "Atmosfer",
+    "b": "Ozon tabakası",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0115",
+    "a": "Hava basıncı",
+    "b": "Nem oranı",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0116",
+    "a": "Termometre",
+    "b": "Barometre",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0117",
+    "a": "Rüzgâr gülü",
+    "b": "Anemometre",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0118",
+    "a": "Yağış ölçer",
+    "b": "Kar cetveli",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0119",
+    "a": "Sıcak hava dalgası",
+    "b": "Kuraklık",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0120",
+    "a": "Gölge",
+    "b": "Yansıma",
+    "category": "Hava ve gökyüzü",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0121",
+    "a": "Elma",
+    "b": "Armut",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0122",
+    "a": "Portakal",
+    "b": "Mandalina",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0123",
+    "a": "Limon",
+    "b": "Greyfurt",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0124",
+    "a": "Çilek",
+    "b": "Kiraz",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0125",
+    "a": "Karpuz",
+    "b": "Kavun",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0126",
+    "a": "Şeftali",
+    "b": "Kayısı",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0127",
+    "a": "Üzüm",
+    "b": "Erik",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0128",
+    "a": "Muz",
+    "b": "Ananas",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0129",
+    "a": "İncir",
+    "b": "Hurma",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0130",
+    "a": "Nar",
+    "b": "Trabzon hurması",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0131",
+    "a": "Dut",
+    "b": "Böğürtlen",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0132",
+    "a": "Kivi",
+    "b": "Avokado",
+    "category": "Meyveler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0133",
+    "a": "Vişne",
+    "b": "Kiraz",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0134",
+    "a": "Ahududu",
+    "b": "Böğürtlen",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0135",
+    "a": "Yaban mersini",
+    "b": "Frenk üzümü",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0136",
+    "a": "Yeşil elma",
+    "b": "Kırmızı elma",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0137",
+    "a": "Nektarin",
+    "b": "Şeftali",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0138",
+    "a": "Ayva",
+    "b": "Armut",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0139",
+    "a": "Mandalina",
+    "b": "Kumkuat",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0140",
+    "a": "Pomelo",
+    "b": "Greyfurt",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0141",
+    "a": "Mango",
+    "b": "Papaya",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0142",
+    "a": "Hindistan cevizi",
+    "b": "Ananas",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0143",
+    "a": "Kuru üzüm",
+    "b": "Kuru dut",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0144",
+    "a": "Kuru kayısı",
+    "b": "Kuru incir",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0145",
+    "a": "Kuru erik",
+    "b": "Hurma",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0146",
+    "a": "Böğürtlen",
+    "b": "Karadut",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0147",
+    "a": "Kuşburnu",
+    "b": "Kızılcık",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0148",
+    "a": "Hünnap",
+    "b": "İğde",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0149",
+    "a": "Malta eriği",
+    "b": "Kayısı",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0150",
+    "a": "Beyaz üzüm",
+    "b": "Siyah üzüm",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0151",
+    "a": "Çekirdeksiz üzüm",
+    "b": "Çekirdekli üzüm",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0152",
+    "a": "Muz cipsi",
+    "b": "Elma kurusu",
+    "category": "Meyveler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0153",
+    "a": "Limon",
+    "b": "Misket limonu",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0154",
+    "a": "Kan portakalı",
+    "b": "Greyfurt",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0155",
+    "a": "Bergamot",
+    "b": "Turunç",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0156",
+    "a": "Çarkıfelek meyvesi",
+    "b": "Guava",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0157",
+    "a": "Ejder meyvesi",
+    "b": "Yıldız meyvesi",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0158",
+    "a": "Liçi",
+    "b": "Rambutan",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0159",
+    "a": "Dağ çileği",
+    "b": "Ahududu",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0160",
+    "a": "Kestane",
+    "b": "Ceviz",
+    "category": "Meyveler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0161",
+    "a": "Domates",
+    "b": "Biber",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0162",
+    "a": "Salatalık",
+    "b": "Kabak",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0163",
+    "a": "Patates",
+    "b": "Soğan",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0164",
+    "a": "Havuç",
+    "b": "Turp",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0165",
+    "a": "Marul",
+    "b": "Lahana",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0166",
+    "a": "Ispanak",
+    "b": "Pazı",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0167",
+    "a": "Karnabahar",
+    "b": "Brokoli",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0168",
+    "a": "Bezelye",
+    "b": "Fasulye",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0169",
+    "a": "Nohut",
+    "b": "Mercimek",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0170",
+    "a": "Patlıcan",
+    "b": "Kabak",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0171",
+    "a": "Mısır",
+    "b": "Buğday",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0172",
+    "a": "Sarımsak",
+    "b": "Pırasa",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0173",
+    "a": "Kereviz",
+    "b": "Enginar",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0174",
+    "a": "Pancar",
+    "b": "Şalgam",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0175",
+    "a": "Roka",
+    "b": "Tere",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0176",
+    "a": "Maydanoz",
+    "b": "Dereotu",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0177",
+    "a": "Fesleğen",
+    "b": "Nane",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0178",
+    "a": "Taze soğan",
+    "b": "Frenk soğanı",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0179",
+    "a": "Kırmızı lahana",
+    "b": "Beyaz lahana",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0180",
+    "a": "Brüksel lahanası",
+    "b": "Lahana",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0181",
+    "a": "Kapya biber",
+    "b": "Dolmalık biber",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0182",
+    "a": "Sivri biber",
+    "b": "Çarliston biber",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0183",
+    "a": "Yeşil mercimek",
+    "b": "Kırmızı mercimek",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0184",
+    "a": "Barbunya",
+    "b": "Kuru fasulye",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0185",
+    "a": "Börülce",
+    "b": "Maş fasulyesi",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0186",
+    "a": "Bakla",
+    "b": "Bezelye",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0187",
+    "a": "Tatlı patates",
+    "b": "Patates",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0188",
+    "a": "Kuşkonmaz",
+    "b": "Taze fasulye",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0189",
+    "a": "Mantar",
+    "b": "Trüf",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0190",
+    "a": "Salatalık turşusu",
+    "b": "Lahana turşusu",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0191",
+    "a": "Semizotu",
+    "b": "Kuzukulağı",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0192",
+    "a": "Bambu filizi",
+    "b": "Soya filizi",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0193",
+    "a": "Arpacık soğan",
+    "b": "Kuru soğan",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0194",
+    "a": "Yer elması",
+    "b": "Kereviz",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0195",
+    "a": "Alabaş",
+    "b": "Turp",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0196",
+    "a": "Rezene",
+    "b": "Pırasa",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0197",
+    "a": "Radika",
+    "b": "Hindiba",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0198",
+    "a": "Kekik",
+    "b": "Biberiye",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0199",
+    "a": "Adaçayı",
+    "b": "Ihlamur",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0200",
+    "a": "Bulgur",
+    "b": "Kuskus",
+    "category": "Sebze ve bakliyat",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0201",
+    "a": "Pizza",
+    "b": "Hamburger",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0202",
+    "a": "Mantı",
+    "b": "Makarna",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0203",
+    "a": "Pilav",
+    "b": "Risotto",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0204",
+    "a": "Döner",
+    "b": "Kebap",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0205",
+    "a": "Köfte",
+    "b": "Sucuk",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0206",
+    "a": "Çorba",
+    "b": "Güveç",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0207",
+    "a": "Börek",
+    "b": "Gözleme",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0208",
+    "a": "Lahmacun",
+    "b": "Pide",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0209",
+    "a": "Dolma",
+    "b": "Sarma",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0210",
+    "a": "Omlet",
+    "b": "Menemen",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0211",
+    "a": "Balık",
+    "b": "Tavuk",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0212",
+    "a": "Kumpir",
+    "b": "Patates kızartması",
+    "category": "Ana yemekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0213",
+    "a": "İskender",
+    "b": "Beyti",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0214",
+    "a": "Adana kebap",
+    "b": "Urfa kebap",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0215",
+    "a": "Şiş kebap",
+    "b": "Köfte şiş",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0216",
+    "a": "Karnıyarık",
+    "b": "İmam bayıldı",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0217",
+    "a": "Musakka",
+    "b": "Lazanya",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0218",
+    "a": "Hünkâr beğendi",
+    "b": "Ali nazik",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0219",
+    "a": "Kuru fasulye",
+    "b": "Nohut yemeği",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0220",
+    "a": "Mercimek çorbası",
+    "b": "Ezogelin",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0221",
+    "a": "Tarhana çorbası",
+    "b": "Domates çorbası",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0222",
+    "a": "Yayla çorbası",
+    "b": "Şehriye çorbası",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0223",
+    "a": "İçli köfte",
+    "b": "Çiğ köfte",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0224",
+    "a": "Mücver",
+    "b": "Falafel",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0225",
+    "a": "Su böreği",
+    "b": "Tepsi böreği",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0226",
+    "a": "Sigara böreği",
+    "b": "Paçanga böreği",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0227",
+    "a": "Tost",
+    "b": "Sandviç",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0228",
+    "a": "Sosisli",
+    "b": "Burger",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0229",
+    "a": "Mantarlı makarna",
+    "b": "Kremalı makarna",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0230",
+    "a": "Kızarmış tavuk",
+    "b": "Şnitzel",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0231",
+    "a": "Sushi",
+    "b": "Poke",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0232",
+    "a": "Tacos",
+    "b": "Burrito",
+    "category": "Ana yemekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0233",
+    "a": "Zeytinyağlı fasulye",
+    "b": "Pilaki",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0234",
+    "a": "Keşkek",
+    "b": "Aşure",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0235",
+    "a": "Erişte",
+    "b": "Şehriye",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0236",
+    "a": "Ravioli",
+    "b": "Mantı",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0237",
+    "a": "Gnocchi",
+    "b": "Makarna",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0238",
+    "a": "Paella",
+    "b": "Deniz mahsullü pilav",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0239",
+    "a": "Krep",
+    "b": "Akıtma",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0240",
+    "a": "Fırında sebze",
+    "b": "Sebze sote",
+    "category": "Ana yemekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0241",
+    "a": "Dondurma",
+    "b": "Sorbe",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0242",
+    "a": "Kek",
+    "b": "Kurabiye",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0243",
+    "a": "Baklava",
+    "b": "Kadayıf",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0244",
+    "a": "Sütlaç",
+    "b": "Muhallebi",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0245",
+    "a": "Çikolata",
+    "b": "Gofret",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0246",
+    "a": "Cips",
+    "b": "Patlamış mısır",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0247",
+    "a": "Simit",
+    "b": "Poğaça",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0248",
+    "a": "Bal",
+    "b": "Reçel",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0249",
+    "a": "Puding",
+    "b": "Jöle",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0250",
+    "a": "Lokum",
+    "b": "Marshmallow",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0251",
+    "a": "Waffle",
+    "b": "Krep",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0252",
+    "a": "Pasta",
+    "b": "Cheesecake",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0253",
+    "a": "Tulumba",
+    "b": "Lokma",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0254",
+    "a": "Revani",
+    "b": "Şambali",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0255",
+    "a": "Künefe",
+    "b": "Kadayıf",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0256",
+    "a": "Kazandibi",
+    "b": "Tavukgöğsü",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0257",
+    "a": "Profiterol",
+    "b": "Ekler",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0258",
+    "a": "Brownie",
+    "b": "Islak kek",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0259",
+    "a": "Muffin",
+    "b": "Cupcake",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0260",
+    "a": "Donut",
+    "b": "Berliner",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0261",
+    "a": "Makaron",
+    "b": "Beze",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0262",
+    "a": "Tiramisu",
+    "b": "Trileçe",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0263",
+    "a": "Helva",
+    "b": "Pişmaniye",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0264",
+    "a": "Fıstık ezmesi",
+    "b": "Fındık kreması",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0265",
+    "a": "Pekmez",
+    "b": "Bal",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0266",
+    "a": "Marmelat",
+    "b": "Reçel",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0267",
+    "a": "Granola",
+    "b": "Müsli",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0268",
+    "a": "Kraker",
+    "b": "Galeta",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0269",
+    "a": "Leblebi",
+    "b": "Çekirdek",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0270",
+    "a": "Badem",
+    "b": "Fındık",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0271",
+    "a": "Ceviz",
+    "b": "Antep fıstığı",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0272",
+    "a": "Hurmalı top",
+    "b": "Trüf çikolata",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0273",
+    "a": "Krokan",
+    "b": "Nugat",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0274",
+    "a": "Akide şekeri",
+    "b": "Nane şekeri",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0275",
+    "a": "Badem şekeri",
+    "b": "Draje",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0276",
+    "a": "Sakız",
+    "b": "Jelibon",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0277",
+    "a": "Güllaç",
+    "b": "Kazandibi",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0278",
+    "a": "Şekerpare",
+    "b": "Kalburabastı",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0279",
+    "a": "Un helvası",
+    "b": "İrmik helvası",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0280",
+    "a": "Tahin helvası",
+    "b": "Yaz helvası",
+    "category": "Tatlı ve atıştırmalık",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0281",
+    "a": "Çay",
+    "b": "Kahve",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0282",
+    "a": "Ayran",
+    "b": "Kefir",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0283",
+    "a": "Limonata",
+    "b": "Portakal suyu",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0284",
+    "a": "Süt",
+    "b": "Sıcak çikolata",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0285",
+    "a": "Su",
+    "b": "Soda",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0286",
+    "a": "Kola",
+    "b": "Gazoz",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0287",
+    "a": "Salep",
+    "b": "Boza",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0288",
+    "a": "Milkshake",
+    "b": "Smoothie",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0289",
+    "a": "Türk kahvesi",
+    "b": "Espresso",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0290",
+    "a": "Buzlu çay",
+    "b": "Soğuk kahve",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0291",
+    "a": "Elma suyu",
+    "b": "Vişne suyu",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0292",
+    "a": "Maden suyu",
+    "b": "Tonik",
+    "category": "İçecekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0293",
+    "a": "Latte",
+    "b": "Cappuccino",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0294",
+    "a": "Americano",
+    "b": "Filtre kahve",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0295",
+    "a": "Mocha",
+    "b": "Sıcak çikolata",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0296",
+    "a": "Macchiato",
+    "b": "Cortado",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0297",
+    "a": "Cold brew",
+    "b": "Buzlu americano",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0298",
+    "a": "Yeşil çay",
+    "b": "Siyah çay",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0299",
+    "a": "Beyaz çay",
+    "b": "Oolong çayı",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0300",
+    "a": "Ihlamur",
+    "b": "Papatya çayı",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0301",
+    "a": "Adaçayı",
+    "b": "Kuşburnu çayı",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0302",
+    "a": "Nane limon",
+    "b": "Zencefil çayı",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0303",
+    "a": "Demleme çay",
+    "b": "Poşet çay",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0304",
+    "a": "Şalgam",
+    "b": "Ayran",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0305",
+    "a": "Nar suyu",
+    "b": "Üzüm suyu",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0306",
+    "a": "Havuç suyu",
+    "b": "Domates suyu",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0307",
+    "a": "Kayısı nektarı",
+    "b": "Şeftali nektarı",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0308",
+    "a": "Hindistan cevizi suyu",
+    "b": "Badem sütü",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0309",
+    "a": "Soya sütü",
+    "b": "Yulaf sütü",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0310",
+    "a": "Kakao",
+    "b": "Çikolatalı süt",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0311",
+    "a": "Komposto",
+    "b": "Hoşaf",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0312",
+    "a": "Şerbet",
+    "b": "Meyve suyu",
+    "category": "İçecekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0313",
+    "a": "Dibek kahvesi",
+    "b": "Menengiç kahvesi",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0314",
+    "a": "Türk çayı",
+    "b": "Earl Grey",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0315",
+    "a": "Matcha",
+    "b": "Mate",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0316",
+    "a": "Frappe",
+    "b": "Frappuccino",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0317",
+    "a": "Affogato",
+    "b": "Milkshake",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0318",
+    "a": "Şeftalili buzlu çay",
+    "b": "Limonlu buzlu çay",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0319",
+    "a": "Aromalı su",
+    "b": "Meyveli soda",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0320",
+    "a": "Kefir",
+    "b": "Probiyotik yoğurt içeceği",
+    "category": "İçecekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0321",
+    "a": "Çatal",
+    "b": "Kaşık",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0322",
+    "a": "Tabak",
+    "b": "Kase",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0323",
+    "a": "Bardak",
+    "b": "Fincan",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0324",
+    "a": "Tencere",
+    "b": "Tava",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0325",
+    "a": "Fırın",
+    "b": "Ocak",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0326",
+    "a": "Buzdolabı",
+    "b": "Derin dondurucu",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0327",
+    "a": "Bıçak",
+    "b": "Makas",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0328",
+    "a": "Sürahi",
+    "b": "Termos",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0329",
+    "a": "Çaydanlık",
+    "b": "Demlik",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0330",
+    "a": "Rende",
+    "b": "Soyacak",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0331",
+    "a": "Kevgir",
+    "b": "Süzgeç",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0332",
+    "a": "Kepçe",
+    "b": "Spatula",
+    "category": "Mutfak gereçleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0333",
+    "a": "Düdüklü tencere",
+    "b": "Güveç kabı",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0334",
+    "a": "Wok tava",
+    "b": "Izgara tava",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0335",
+    "a": "Kek kalıbı",
+    "b": "Fırın tepsisi",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0336",
+    "a": "Çırpıcı",
+    "b": "Mikser",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0337",
+    "a": "Blender",
+    "b": "Mutfak robotu",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0338",
+    "a": "Ekmek kızartıcı",
+    "b": "Tost makinesi",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0339",
+    "a": "Kahve makinesi",
+    "b": "Cezve",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0340",
+    "a": "Su ısıtıcı",
+    "b": "Çay makinesi",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0341",
+    "a": "Havan",
+    "b": "Baharat öğütücü",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0342",
+    "a": "Oklava",
+    "b": "Merdane",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0343",
+    "a": "Hamur kazıyıcı",
+    "b": "Spatula",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0344",
+    "a": "Kesme tahtası",
+    "b": "Servis tahtası",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0345",
+    "a": "Salata kurutucu",
+    "b": "Süzgeç",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0346",
+    "a": "Limon sıkacağı",
+    "b": "Portakal sıkacağı",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0347",
+    "a": "Sarımsak ezici",
+    "b": "Patates ezici",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0348",
+    "a": "Açacak",
+    "b": "Tirbuşon",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0349",
+    "a": "Mutfak terazisi",
+    "b": "Ölçü kabı",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0350",
+    "a": "Yağdanlık",
+    "b": "Sirkelik",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0351",
+    "a": "Tuzluk",
+    "b": "Biberlik",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0352",
+    "a": "Saklama kabı",
+    "b": "Kavanoz",
+    "category": "Mutfak gereçleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0353",
+    "a": "Kupa",
+    "b": "Fincan",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0354",
+    "a": "Kase",
+    "b": "Çorbalık",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0355",
+    "a": "Sosluk",
+    "b": "Sütlük",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0356",
+    "a": "Şekerlik",
+    "b": "Baharatlık",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0357",
+    "a": "Maşa",
+    "b": "Servis kaşığı",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0358",
+    "a": "Silikon fırça",
+    "b": "Yumurta çırpıcı",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0359",
+    "a": "Un eleği",
+    "b": "Çay süzgeci",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0360",
+    "a": "Nihale",
+    "b": "Fırın eldiveni",
+    "category": "Mutfak gereçleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0361",
+    "a": "Koltuk",
+    "b": "Sandalye",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0362",
+    "a": "Masa",
+    "b": "Sehpa",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0363",
+    "a": "Yatak",
+    "b": "Kanepe",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0364",
+    "a": "Yastık",
+    "b": "Minder",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0365",
+    "a": "Battaniye",
+    "b": "Yorgan",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0366",
+    "a": "Halı",
+    "b": "Kilim",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0367",
+    "a": "Perde",
+    "b": "Jaluzi",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0368",
+    "a": "Lamba",
+    "b": "Avize",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0369",
+    "a": "Ayna",
+    "b": "Tablo",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0370",
+    "a": "Dolap",
+    "b": "Şifonyer",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0371",
+    "a": "Süpürge",
+    "b": "Paspas",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0372",
+    "a": "Saat",
+    "b": "Takvim",
+    "category": "Ev eşyaları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0373",
+    "a": "Kitaplık",
+    "b": "Vitrin",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0374",
+    "a": "Konsol",
+    "b": "Büfe",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0375",
+    "a": "Puf",
+    "b": "Tabure",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0376",
+    "a": "Sallanan sandalye",
+    "b": "Salıncak",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0377",
+    "a": "Ranza",
+    "b": "Çekyat",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0378",
+    "a": "Nevresim",
+    "b": "Çarşaf",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0379",
+    "a": "Yatak örtüsü",
+    "b": "Pike",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0380",
+    "a": "Stor perde",
+    "b": "Tül perde",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0381",
+    "a": "Abajur",
+    "b": "Lambader",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0382",
+    "a": "Duvar saati",
+    "b": "Masa saati",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0383",
+    "a": "Mum",
+    "b": "Fener",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0384",
+    "a": "Vazo",
+    "b": "Saksı",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0385",
+    "a": "Askılık",
+    "b": "Portmanto",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0386",
+    "a": "Ayakkabılık",
+    "b": "Komodin",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0387",
+    "a": "Çamaşır sepeti",
+    "b": "Hurç",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0388",
+    "a": "Çöp kutusu",
+    "b": "Geri dönüşüm kutusu",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0389",
+    "a": "Ütü",
+    "b": "Elbise buharlayıcı",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0390",
+    "a": "Elektrikli süpürge",
+    "b": "Robot süpürge",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0391",
+    "a": "Vantilatör",
+    "b": "Klima",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0392",
+    "a": "Isıtıcı",
+    "b": "Soba",
+    "category": "Ev eşyaları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0393",
+    "a": "Kırlent",
+    "b": "Boyun yastığı",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0394",
+    "a": "Sedir",
+    "b": "Paravan",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0395",
+    "a": "Koltuk örtüsü",
+    "b": "Masa örtüsü",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0396",
+    "a": "Amerikan servis",
+    "b": "Supla",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0397",
+    "a": "Peçetelik",
+    "b": "Kağıt havluluk",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0398",
+    "a": "Sabunluk",
+    "b": "Diş fırçalık",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0399",
+    "a": "Banyo paspası",
+    "b": "Kapı paspası",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0400",
+    "a": "Raf",
+    "b": "Çekmece",
+    "category": "Ev eşyaları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0401",
+    "a": "Ev",
+    "b": "Apartman",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0402",
+    "a": "Okul",
+    "b": "Üniversite",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0403",
+    "a": "Hastane",
+    "b": "Eczane",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0404",
+    "a": "Market",
+    "b": "Bakkal",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0405",
+    "a": "Restoran",
+    "b": "Kafe",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0406",
+    "a": "Otel",
+    "b": "Pansiyon",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0407",
+    "a": "Müze",
+    "b": "Galeri",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0408",
+    "a": "Tiyatro",
+    "b": "Sinema",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0409",
+    "a": "Kütüphane",
+    "b": "Kitabevi",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0410",
+    "a": "Stadyum",
+    "b": "Spor salonu",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0411",
+    "a": "Havaalanı",
+    "b": "Gar",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0412",
+    "a": "Köprü",
+    "b": "Viyadük",
+    "category": "Mekân ve yapılar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0413",
+    "a": "Villa",
+    "b": "Köşk",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0414",
+    "a": "Kulübe",
+    "b": "Bungalov",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0415",
+    "a": "Gökdelen",
+    "b": "Rezidans",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0416",
+    "a": "Çatı katı",
+    "b": "Bodrum katı",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0417",
+    "a": "Balkon",
+    "b": "Teras",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0418",
+    "a": "Veranda",
+    "b": "Avlu",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0419",
+    "a": "Antre",
+    "b": "Koridor",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0420",
+    "a": "Mutfak",
+    "b": "Yemek odası",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0421",
+    "a": "Salon",
+    "b": "Oturma odası",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0422",
+    "a": "Banyo",
+    "b": "Hamam",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0423",
+    "a": "Yatak odası",
+    "b": "Misafir odası",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0424",
+    "a": "Çalışma odası",
+    "b": "Atölye",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0425",
+    "a": "Garaj",
+    "b": "Otopark",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0426",
+    "a": "Depo",
+    "b": "Kiler",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0427",
+    "a": "Çarşı",
+    "b": "Alışveriş merkezi",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0428",
+    "a": "Pazar",
+    "b": "Panayır",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0429",
+    "a": "Fırın",
+    "b": "Pastane",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0430",
+    "a": "Manav",
+    "b": "Şarküteri",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0431",
+    "a": "Postane",
+    "b": "Kargo şubesi",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0432",
+    "a": "Belediye binası",
+    "b": "Adliye",
+    "category": "Mekân ve yapılar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0433",
+    "a": "Kule",
+    "b": "Minare",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0434",
+    "a": "Kale",
+    "b": "Hisar",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0435",
+    "a": "Saray",
+    "b": "Konak",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0436",
+    "a": "Amfitiyatro",
+    "b": "Açık hava sineması",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0437",
+    "a": "Planetaryum",
+    "b": "Gözlemevi",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0438",
+    "a": "Akvaryum",
+    "b": "Hayvanat bahçesi",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0439",
+    "a": "Sera",
+    "b": "Kış bahçesi",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0440",
+    "a": "İstasyon",
+    "b": "Terminal",
+    "category": "Mekân ve yapılar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0441",
+    "a": "Tişört",
+    "b": "Gömlek",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0442",
+    "a": "Pantolon",
+    "b": "Şort",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0443",
+    "a": "Etek",
+    "b": "Elbise",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0444",
+    "a": "Kazak",
+    "b": "Hırka",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0445",
+    "a": "Mont",
+    "b": "Ceket",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0446",
+    "a": "Bot",
+    "b": "Çizme",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0447",
+    "a": "Terlik",
+    "b": "Sandalet",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0448",
+    "a": "Şapka",
+    "b": "Bere",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0449",
+    "a": "Atkı",
+    "b": "Şal",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0450",
+    "a": "Eldiven",
+    "b": "Çorap",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0451",
+    "a": "Pijama",
+    "b": "Eşofman",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0452",
+    "a": "Kemer",
+    "b": "Askı",
+    "category": "Giyim",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0453",
+    "a": "Sweatshirt",
+    "b": "Kapüşonlu",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0454",
+    "a": "Yelek",
+    "b": "Süveter",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0455",
+    "a": "Trençkot",
+    "b": "Yağmurluk",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0456",
+    "a": "Kaban",
+    "b": "Parka",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0457",
+    "a": "Kot pantolon",
+    "b": "Kumaş pantolon",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0458",
+    "a": "Tayt",
+    "b": "Eşofman altı",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0459",
+    "a": "Tulum",
+    "b": "Salopet",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0460",
+    "a": "Bluz",
+    "b": "Tunik",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0461",
+    "a": "Kravat",
+    "b": "Papyon",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0462",
+    "a": "Mayo",
+    "b": "Bikini",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0463",
+    "a": "Deniz şortu",
+    "b": "Spor şortu",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0464",
+    "a": "Spor ayakkabı",
+    "b": "Koşu ayakkabısı",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0465",
+    "a": "Babet",
+    "b": "Loafer",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0466",
+    "a": "Topuklu ayakkabı",
+    "b": "Dolgu topuk",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0467",
+    "a": "Şapka",
+    "b": "Kasket",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0468",
+    "a": "Şal",
+    "b": "Eşarp",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0469",
+    "a": "Bere",
+    "b": "Kulaklık bandı",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0470",
+    "a": "Çorap",
+    "b": "Tozluk",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0471",
+    "a": "Yağmurluk",
+    "b": "Panço",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0472",
+    "a": "Takım elbise",
+    "b": "Smokin",
+    "category": "Giyim",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0473",
+    "a": "Kadife",
+    "b": "Denim",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0474",
+    "a": "Pamuk",
+    "b": "Keten",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0475",
+    "a": "Yün",
+    "b": "Kaşmir",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0476",
+    "a": "Saten",
+    "b": "İpek",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0477",
+    "a": "Dantel",
+    "b": "Tül",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0478",
+    "a": "Düğme",
+    "b": "Fermuar",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0479",
+    "a": "Cep",
+    "b": "Kese",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0480",
+    "a": "Paça",
+    "b": "Manşet",
+    "category": "Giyim",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0481",
+    "a": "Gözlük",
+    "b": "Güneş gözlüğü",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0482",
+    "a": "Kol saati",
+    "b": "Bileklik",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0483",
+    "a": "Kolye",
+    "b": "Küpe",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0484",
+    "a": "Yüzük",
+    "b": "Broş",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0485",
+    "a": "Çanta",
+    "b": "Sırt çantası",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0486",
+    "a": "Cüzdan",
+    "b": "Kartlık",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0487",
+    "a": "Tarak",
+    "b": "Fırça",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0488",
+    "a": "Şampuan",
+    "b": "Duş jeli",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0489",
+    "a": "Sabun",
+    "b": "Dezenfektan",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0490",
+    "a": "Diş fırçası",
+    "b": "Diş ipi",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0491",
+    "a": "Havlu",
+    "b": "Bornoz",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0492",
+    "a": "Parfüm",
+    "b": "Deodorant",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0493",
+    "a": "El çantası",
+    "b": "Omuz çantası",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0494",
+    "a": "Bavul",
+    "b": "Seyahat çantası",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0495",
+    "a": "Makyaj çantası",
+    "b": "Kalemlik",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0496",
+    "a": "Anahtarlık",
+    "b": "Çanta süsü",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0497",
+    "a": "Saç tokası",
+    "b": "Taç",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0498",
+    "a": "Bandana",
+    "b": "Saç bandı",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0499",
+    "a": "Gözlük kılıfı",
+    "b": "Telefon kılıfı",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0500",
+    "a": "Lens",
+    "b": "Gözlük",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0501",
+    "a": "Diş macunu",
+    "b": "Ağız gargarası",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0502",
+    "a": "El kremi",
+    "b": "Vücut losyonu",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0503",
+    "a": "Güneş kremi",
+    "b": "Nemlendirici",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0504",
+    "a": "Dudak balmı",
+    "b": "Ruj",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0505",
+    "a": "Allık",
+    "b": "Bronzlaştırıcı",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0506",
+    "a": "Fondöten",
+    "b": "Kapatıcı",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0507",
+    "a": "Maskara",
+    "b": "Eyeliner",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0508",
+    "a": "Oje",
+    "b": "Aseton",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0509",
+    "a": "Tırnak makası",
+    "b": "Törpü",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0510",
+    "a": "Cımbız",
+    "b": "Makas",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0511",
+    "a": "Saç kurutma makinesi",
+    "b": "Saç düzleştirici",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0512",
+    "a": "Tıraş makinesi",
+    "b": "Sakal düzeltici",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0513",
+    "a": "Tıraş köpüğü",
+    "b": "Tıraş jeli",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0514",
+    "a": "Kuru şampuan",
+    "b": "Saç spreyi",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0515",
+    "a": "Saç kremi",
+    "b": "Saç maskesi",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0516",
+    "a": "Yüz temizleme jeli",
+    "b": "Tonik",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0517",
+    "a": "Pamuk disk",
+    "b": "Kulak çubuğu",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0518",
+    "a": "Sünger",
+    "b": "Kese",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0519",
+    "a": "Lif",
+    "b": "Banyo fırçası",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0520",
+    "a": "Kolonya",
+    "b": "Gül suyu",
+    "category": "Aksesuar ve bakım",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0521",
+    "a": "Kedi",
+    "b": "Köpek",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0522",
+    "a": "Koyun",
+    "b": "Keçi",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0523",
+    "a": "İnek",
+    "b": "Manda",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0524",
+    "a": "At",
+    "b": "Eşek",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0525",
+    "a": "Tavuk",
+    "b": "Hindi",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0526",
+    "a": "Ördek",
+    "b": "Kaz",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0527",
+    "a": "Tavşan",
+    "b": "Hamster",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0528",
+    "a": "Muhabbet kuşu",
+    "b": "Kanarya",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0529",
+    "a": "Güvercin",
+    "b": "Kumru",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0530",
+    "a": "Arı",
+    "b": "Kelebek",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0531",
+    "a": "Civciv",
+    "b": "Ördek yavrusu",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0532",
+    "a": "Kuzu",
+    "b": "Oğlak",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0533",
+    "a": "Pony",
+    "b": "At",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0534",
+    "a": "Katır",
+    "b": "Eşek",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0535",
+    "a": "Lama",
+    "b": "Alpaka",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0536",
+    "a": "Deve",
+    "b": "At",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0537",
+    "a": "Horoz",
+    "b": "Hindi",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0538",
+    "a": "Bıldırcın",
+    "b": "Keklik",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0539",
+    "a": "Papağan",
+    "b": "Muhabbet kuşu",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0540",
+    "a": "Japon balığı",
+    "b": "Lepistes",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0541",
+    "a": "Kaplumbağa",
+    "b": "Tavşan",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0542",
+    "a": "Kobay",
+    "b": "Hamster",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0543",
+    "a": "Gerbil",
+    "b": "Hamster",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0544",
+    "a": "Salyangoz",
+    "b": "Sümüklüböcek",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0545",
+    "a": "İpek böceği",
+    "b": "Tırtıl",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0546",
+    "a": "Çoban köpeği",
+    "b": "Bekçi köpeği",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0547",
+    "a": "Husky",
+    "b": "Kurt köpeği",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0548",
+    "a": "Golden retriever",
+    "b": "Labrador",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0549",
+    "a": "Siyam kedisi",
+    "b": "Tekir kedi",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0550",
+    "a": "Ankara kedisi",
+    "b": "Van kedisi",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0551",
+    "a": "Kanarya",
+    "b": "Hint bülbülü",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0552",
+    "a": "Japon balığı",
+    "b": "Beta balığı",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0553",
+    "a": "Yavru kedi",
+    "b": "Yavru köpek",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0554",
+    "a": "Buzağı",
+    "b": "Tay",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0555",
+    "a": "Hindi yavrusu",
+    "b": "Civciv",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0556",
+    "a": "Kovan",
+    "b": "Kümes",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0557",
+    "a": "Ahır",
+    "b": "Ağıl",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0558",
+    "a": "Akvaryum",
+    "b": "Teraryum",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0559",
+    "a": "Mama kabı",
+    "b": "Suluk",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0560",
+    "a": "Tasma",
+    "b": "Göğüs tasması",
+    "category": "Evcil ve çiftlik hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0561",
+    "a": "Aslan",
+    "b": "Kaplan",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0562",
+    "a": "Kurt",
+    "b": "Tilki",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0563",
+    "a": "Ayı",
+    "b": "Panda",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0564",
+    "a": "Fil",
+    "b": "Gergedan",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0565",
+    "a": "Zürafa",
+    "b": "Zebra",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0566",
+    "a": "Geyik",
+    "b": "Ceylan",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0567",
+    "a": "Maymun",
+    "b": "Goril",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0568",
+    "a": "Kartal",
+    "b": "Şahin",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0569",
+    "a": "Baykuş",
+    "b": "Yarasa",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0570",
+    "a": "Penguen",
+    "b": "Kutup ayısı",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0571",
+    "a": "Timsah",
+    "b": "Kertenkele",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0572",
+    "a": "Yılan",
+    "b": "Solucan",
+    "category": "Yaban hayvanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0573",
+    "a": "Leopar",
+    "b": "Çita",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0574",
+    "a": "Jaguar",
+    "b": "Puma",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0575",
+    "a": "Sırtlan",
+    "b": "Çakal",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0576",
+    "a": "Su samuru",
+    "b": "Kunduz",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0577",
+    "a": "Sincap",
+    "b": "Gelincik",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0578",
+    "a": "Kirpi",
+    "b": "Oklu kirpi",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0579",
+    "a": "Köstebek",
+    "b": "Porsuk",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0580",
+    "a": "Rakun",
+    "b": "Panda",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0581",
+    "a": "Koala",
+    "b": "Tembel hayvan",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0582",
+    "a": "Kanguru",
+    "b": "Valabi",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0583",
+    "a": "Antilop",
+    "b": "Dağ keçisi",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0584",
+    "a": "Bizon",
+    "b": "Yaban öküzü",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0585",
+    "a": "Mors",
+    "b": "Fok",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0586",
+    "a": "Deniz aslanı",
+    "b": "Su samuru",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0587",
+    "a": "Yunus",
+    "b": "Balina",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0588",
+    "a": "Köpekbalığı",
+    "b": "Kılıçbalığı",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0589",
+    "a": "Vatoz",
+    "b": "Denizatı",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0590",
+    "a": "Pelikan",
+    "b": "Leylek",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0591",
+    "a": "Flamingo",
+    "b": "Turna",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0592",
+    "a": "Serçe",
+    "b": "İspinoz",
+    "category": "Yaban hayvanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0593",
+    "a": "Ağaçkakan",
+    "b": "Tukan",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0594",
+    "a": "Kırlangıç",
+    "b": "Ebabil",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0595",
+    "a": "Martı",
+    "b": "Albatros",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0596",
+    "a": "Devekuşu",
+    "b": "Emu",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0597",
+    "a": "Bukalemun",
+    "b": "İguana",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0598",
+    "a": "Kurbağa",
+    "b": "Semender",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0599",
+    "a": "Kırkayak",
+    "b": "Çıyan",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0600",
+    "a": "Yusufçuk",
+    "b": "Kızböceği",
+    "category": "Yaban hayvanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0601",
+    "a": "Gül",
+    "b": "Lale",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0602",
+    "a": "Papatya",
+    "b": "Ayçiçeği",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0603",
+    "a": "Çam",
+    "b": "Meşe",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0604",
+    "a": "Çim",
+    "b": "Yosun",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0605",
+    "a": "Yaprak",
+    "b": "Çiçek",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0606",
+    "a": "Tohum",
+    "b": "Çekirdek",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0607",
+    "a": "Bahçe",
+    "b": "Bostan",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0608",
+    "a": "Çit",
+    "b": "Duvar",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0609",
+    "a": "Çapa",
+    "b": "Kürek",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0610",
+    "a": "Hortum",
+    "b": "Sulama kabı",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0611",
+    "a": "Kaktüs",
+    "b": "Aloe vera",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0612",
+    "a": "Orkide",
+    "b": "Sümbül",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0613",
+    "a": "Menekşe",
+    "b": "Begonya",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0614",
+    "a": "Karanfil",
+    "b": "Kasımpatı",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0615",
+    "a": "Lavanta",
+    "b": "Leylak",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0616",
+    "a": "Zambak",
+    "b": "Nergis",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0617",
+    "a": "Gelincik",
+    "b": "Şakayık",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0618",
+    "a": "Sardunya",
+    "b": "Petunya",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0619",
+    "a": "Yasemin",
+    "b": "Hanımeli",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0620",
+    "a": "Nilüfer",
+    "b": "Su sümbülü",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0621",
+    "a": "Açelya",
+    "b": "Ortanca",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0622",
+    "a": "Sedir",
+    "b": "Servi",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0623",
+    "a": "Söğüt",
+    "b": "Kavak",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0624",
+    "a": "Çınar",
+    "b": "Ihlamur ağacı",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0625",
+    "a": "Zeytin ağacı",
+    "b": "İncir ağacı",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0626",
+    "a": "Elma ağacı",
+    "b": "Kiraz ağacı",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0627",
+    "a": "Çam kozalağı",
+    "b": "Meşe palamudu",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0628",
+    "a": "Sarmaşık",
+    "b": "Asma",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0629",
+    "a": "Eğrelti otu",
+    "b": "Devetabanı",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0630",
+    "a": "Sukulent",
+    "b": "Kaktüs",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0631",
+    "a": "Bonsai",
+    "b": "Fidan",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0632",
+    "a": "Fide",
+    "b": "Fidan",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0633",
+    "a": "Budama",
+    "b": "Aşılama",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0634",
+    "a": "Gübre",
+    "b": "Kompost",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0635",
+    "a": "Torf",
+    "b": "Toprak",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0636",
+    "a": "Çim biçme makinesi",
+    "b": "Çit budama makinesi",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0637",
+    "a": "Tırmık",
+    "b": "Bahçe dirgeni",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0638",
+    "a": "El arabası",
+    "b": "Bahçe vagonu",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0639",
+    "a": "Yağmurlama",
+    "b": "Damla sulama",
+    "category": "Bitkiler ve bahçe",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0640",
+    "a": "Araba",
+    "b": "Otobüs",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0641",
+    "a": "Tren",
+    "b": "Tramvay",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0642",
+    "a": "Uçak",
+    "b": "Helikopter",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0643",
+    "a": "Bisiklet",
+    "b": "Motosiklet",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0644",
+    "a": "Scooter",
+    "b": "Kaykay",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0645",
+    "a": "Gemi",
+    "b": "Feribot",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0646",
+    "a": "Kamyon",
+    "b": "Kamyonet",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0647",
+    "a": "Taksi",
+    "b": "Minibüs",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0648",
+    "a": "Metro",
+    "b": "Metrobüs",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0649",
+    "a": "Traktör",
+    "b": "Biçerdöver",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0650",
+    "a": "Ambulans",
+    "b": "İtfaiye aracı",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0651",
+    "a": "Karavan",
+    "b": "Çadır",
+    "category": "Ulaşım araçları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0652",
+    "a": "Yelkenli",
+    "b": "Katamaran",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0653",
+    "a": "Kano",
+    "b": "Kayık",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0654",
+    "a": "Vapur",
+    "b": "Deniz otobüsü",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0655",
+    "a": "Gondol",
+    "b": "Sandal",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0656",
+    "a": "Teleferik",
+    "b": "Füniküler",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0657",
+    "a": "Hızlı tren",
+    "b": "Yolcu treni",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0658",
+    "a": "Yük treni",
+    "b": "Tır",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0659",
+    "a": "Elektrikli bisiklet",
+    "b": "Elektrikli scooter",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0660",
+    "a": "Moped",
+    "b": "Motosiklet",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0661",
+    "a": "ATV",
+    "b": "Buggy",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0662",
+    "a": "Segway",
+    "b": "Elektrikli tek teker",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0663",
+    "a": "Go-kart",
+    "b": "Yarış arabası",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0664",
+    "a": "Ralli arabası",
+    "b": "Arazi aracı",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0665",
+    "a": "Limuzin",
+    "b": "Spor araba",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0666",
+    "a": "Coupe",
+    "b": "Cabrio",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0667",
+    "a": "SUV",
+    "b": "Pickup",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0668",
+    "a": "Panelvan",
+    "b": "Minivan",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0669",
+    "a": "Üstü açık otobüs",
+    "b": "Tur otobüsü",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0670",
+    "a": "Troleybüs",
+    "b": "Tramvay",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0671",
+    "a": "Çekici",
+    "b": "Vinç",
+    "category": "Ulaşım araçları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0672",
+    "a": "Ekskavatör",
+    "b": "Kepçe",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0673",
+    "a": "Dozer",
+    "b": "Greyder",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0674",
+    "a": "Forklift",
+    "b": "Transpalet",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0675",
+    "a": "Kar motosikleti",
+    "b": "Kızak",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0676",
+    "a": "Sıcak hava balonu",
+    "b": "Zeplin",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0677",
+    "a": "Planör",
+    "b": "Yamaç paraşütü",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0678",
+    "a": "Deniz uçağı",
+    "b": "Amfibi araç",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0679",
+    "a": "Uzay mekiği",
+    "b": "Roket",
+    "category": "Ulaşım araçları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0680",
+    "a": "Bilet",
+    "b": "Rezervasyon",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0681",
+    "a": "Pasaport",
+    "b": "Kimlik",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0682",
+    "a": "Durak",
+    "b": "İstasyon",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0683",
+    "a": "Yol",
+    "b": "Sokak",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0684",
+    "a": "Kavşak",
+    "b": "Dönel kavşak",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0685",
+    "a": "Trafik ışığı",
+    "b": "Yaya geçidi",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0686",
+    "a": "Köprü",
+    "b": "Tünel",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0687",
+    "a": "Hız sınırı",
+    "b": "Park yasağı",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0688",
+    "a": "Benzinlik",
+    "b": "Şarj istasyonu",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0689",
+    "a": "Navigasyon",
+    "b": "Harita",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0690",
+    "a": "Bagaj",
+    "b": "El bagajı",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0691",
+    "a": "Peron",
+    "b": "Bekleme salonu",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0692",
+    "a": "Otoban",
+    "b": "Çevre yolu",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0693",
+    "a": "Şerit",
+    "b": "Banket",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0694",
+    "a": "Kaldırım",
+    "b": "Yaya yolu",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0695",
+    "a": "Bisiklet yolu",
+    "b": "Koşu yolu",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0696",
+    "a": "Üst geçit",
+    "b": "Alt geçit",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0697",
+    "a": "Bariyer",
+    "b": "Duba",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0698",
+    "a": "Yol tabelası",
+    "b": "Reklam panosu",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0699",
+    "a": "Trafik levhası",
+    "b": "Yön levhası",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0700",
+    "a": "Emniyet kemeri",
+    "b": "Kask",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0701",
+    "a": "Direksiyon",
+    "b": "Gidon",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0702",
+    "a": "Vites",
+    "b": "Pedal",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0703",
+    "a": "Fren",
+    "b": "Debriyaj",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0704",
+    "a": "Far",
+    "b": "Sinyal",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0705",
+    "a": "Dikiz aynası",
+    "b": "Yan ayna",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0706",
+    "a": "Silecek",
+    "b": "Fıskiye",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0707",
+    "a": "Tekerlek",
+    "b": "Lastik",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0708",
+    "a": "Stepne",
+    "b": "Tamir kiti",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0709",
+    "a": "Uçuş kartı",
+    "b": "Tren bileti",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0710",
+    "a": "Aktarma",
+    "b": "Mola",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0711",
+    "a": "Tur",
+    "b": "Rehberli gezi",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0712",
+    "a": "Gümrük",
+    "b": "Pasaport kontrolü",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0713",
+    "a": "Vize",
+    "b": "Oturma izni",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0714",
+    "a": "Check-in",
+    "b": "Bagaj teslimi",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0715",
+    "a": "Kalkış",
+    "b": "Varış",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0716",
+    "a": "Rötar",
+    "b": "İptal",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0717",
+    "a": "Gişe",
+    "b": "Turnike",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0718",
+    "a": "Otopark",
+    "b": "Valelik",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0719",
+    "a": "Araç kiralama",
+    "b": "Araç paylaşımı",
+    "category": "Yolculuk ve trafik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0720",
+    "a": "Futbol",
+    "b": "Basketbol",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0721",
+    "a": "Voleybol",
+    "b": "Hentbol",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0722",
+    "a": "Tenis",
+    "b": "Masa tenisi",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0723",
+    "a": "Yüzme",
+    "b": "Su topu",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0724",
+    "a": "Koşu",
+    "b": "Yürüyüş",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0725",
+    "a": "Bisiklet",
+    "b": "Scooter",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0726",
+    "a": "Kayak",
+    "b": "Snowboard",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0727",
+    "a": "Boks",
+    "b": "Güreş",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0728",
+    "a": "Golf",
+    "b": "Mini golf",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0729",
+    "a": "Okçuluk",
+    "b": "Dart",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0730",
+    "a": "Jimnastik",
+    "b": "Bale",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0731",
+    "a": "Tırmanış",
+    "b": "Dağcılık",
+    "category": "Sporlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0732",
+    "a": "Badminton",
+    "b": "Tenis",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0733",
+    "a": "Squash",
+    "b": "Raketbol",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0734",
+    "a": "Plaj voleybolu",
+    "b": "Voleybol",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0735",
+    "a": "Beyzbol",
+    "b": "Softbol",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0736",
+    "a": "Rugby",
+    "b": "Amerikan futbolu",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0737",
+    "a": "Kriket",
+    "b": "Beyzbol",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0738",
+    "a": "Futsal",
+    "b": "Halı saha futbolu",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0739",
+    "a": "Buz hokeyi",
+    "b": "Çim hokeyi",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0740",
+    "a": "Artistik patinaj",
+    "b": "Sürat pateni",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0741",
+    "a": "Curling",
+    "b": "Bowling",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0742",
+    "a": "Sörf",
+    "b": "Kitesurf",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0743",
+    "a": "Kürek",
+    "b": "Kano sporu",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0744",
+    "a": "Dalış",
+    "b": "Serbest dalış",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0745",
+    "a": "Senkronize yüzme",
+    "b": "Artistik buz pateni",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0746",
+    "a": "Triatlon",
+    "b": "Duatlon",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0747",
+    "a": "Maraton",
+    "b": "Yarı maraton",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0748",
+    "a": "Sprint",
+    "b": "Engelli koşu",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0749",
+    "a": "Uzun atlama",
+    "b": "Üç adım atlama",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0750",
+    "a": "Yüksek atlama",
+    "b": "Sırıkla atlama",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0751",
+    "a": "Disk atma",
+    "b": "Gülle atma",
+    "category": "Sporlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0752",
+    "a": "Cirit atma",
+    "b": "Çekiç atma",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0753",
+    "a": "Judo",
+    "b": "Karate",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0754",
+    "a": "Tekvando",
+    "b": "Kickboks",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0755",
+    "a": "Eskrim",
+    "b": "Kendo",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0756",
+    "a": "Pilates",
+    "b": "Yoga",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0757",
+    "a": "Crossfit",
+    "b": "Fitness",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0758",
+    "a": "Aerobik",
+    "b": "Zumba",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0759",
+    "a": "Parkur",
+    "b": "Jimnastik",
+    "category": "Sporlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0760",
+    "a": "Top",
+    "b": "Balon",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0761",
+    "a": "Raket",
+    "b": "Beyzbol sopası",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0762",
+    "a": "Kale",
+    "b": "Pota",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0763",
+    "a": "File",
+    "b": "Ağ",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0764",
+    "a": "Düdük",
+    "b": "Kronometre",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0765",
+    "a": "Forma",
+    "b": "Eşofman",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0766",
+    "a": "Krampon",
+    "b": "Spor ayakkabı",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0767",
+    "a": "Madalya",
+    "b": "Kupa",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0768",
+    "a": "Koşu bandı",
+    "b": "Kondisyon bisikleti",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0769",
+    "a": "Dambıl",
+    "b": "Halter",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0770",
+    "a": "Atlama ipi",
+    "b": "Direnç bandı",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0771",
+    "a": "Kayak",
+    "b": "Kar ayakkabısı",
+    "category": "Spor ekipmanları",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0772",
+    "a": "Tenis topu",
+    "b": "Masa tenisi topu",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0773",
+    "a": "Basketbol topu",
+    "b": "Voleybol topu",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0774",
+    "a": "Rugby topu",
+    "b": "Amerikan futbolu topu",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0775",
+    "a": "Bowling topu",
+    "b": "Bilardo topu",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0776",
+    "a": "Golf sopası",
+    "b": "Hokey sopası",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0777",
+    "a": "Ok",
+    "b": "Yay",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0778",
+    "a": "Dart oku",
+    "b": "Hedef tahtası",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0779",
+    "a": "Masa tenisi masası",
+    "b": "Langırt masası",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0780",
+    "a": "Boks eldiveni",
+    "b": "Karate eldiveni",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0781",
+    "a": "Kum torbası",
+    "b": "Hız topu",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0782",
+    "a": "Minder",
+    "b": "Yoga matı",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0783",
+    "a": "Barfiks demiri",
+    "b": "Paralel bar",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0784",
+    "a": "Denge tahtası",
+    "b": "Trambolin",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0785",
+    "a": "Paten",
+    "b": "Rollerblade",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0786",
+    "a": "Kaykay",
+    "b": "Longboard",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0787",
+    "a": "Sörf tahtası",
+    "b": "Snowboard",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0788",
+    "a": "Yüzücü gözlüğü",
+    "b": "Dalış maskesi",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0789",
+    "a": "Bone",
+    "b": "Kask",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0790",
+    "a": "Can yeleği",
+    "b": "Dalış elbisesi",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0791",
+    "a": "Bisiklet pompası",
+    "b": "Top pompası",
+    "category": "Spor ekipmanları",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0792",
+    "a": "Dizlik",
+    "b": "Dirseklik",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0793",
+    "a": "Bileklik",
+    "b": "Ter bandı",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0794",
+    "a": "Ağırlık kemeri",
+    "b": "Sırt destek kemeri",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0795",
+    "a": "Yelken",
+    "b": "Dümen",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0796",
+    "a": "Karabina",
+    "b": "Tırmanış kancası",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0797",
+    "a": "Tırmanış ipi",
+    "b": "Çekme halatı",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0798",
+    "a": "Baton",
+    "b": "Yürüyüş bastonu",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0799",
+    "a": "Raket kılıfı",
+    "b": "Spor çantası",
+    "category": "Spor ekipmanları",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0800",
+    "a": "Satranç",
+    "b": "Dama",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0801",
+    "a": "Tavla",
+    "b": "Domino",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0802",
+    "a": "Saklambaç",
+    "b": "Körebe",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0803",
+    "a": "İstop",
+    "b": "Yakan top",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0804",
+    "a": "İp atlama",
+    "b": "Seksek",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0805",
+    "a": "Lego",
+    "b": "Yapboz",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0806",
+    "a": "Oyuncak ayı",
+    "b": "Bez bebek",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0807",
+    "a": "Oyuncak araba",
+    "b": "Oyuncak tren",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0808",
+    "a": "Topaç",
+    "b": "Yo-yo",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0809",
+    "a": "Su tabancası",
+    "b": "Baloncuk tabancası",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0810",
+    "a": "Uçurtma",
+    "b": "Balon",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0811",
+    "a": "Oyun hamuru",
+    "b": "Kinetik kum",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0812",
+    "a": "Scrabble",
+    "b": "Kelime türetme",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0813",
+    "a": "Tabu",
+    "b": "Sessiz sinema",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0814",
+    "a": "Pictionary",
+    "b": "Kulaktan kulağa",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0815",
+    "a": "Monopoly",
+    "b": "Catan",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0816",
+    "a": "Uno",
+    "b": "İskambil",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0817",
+    "a": "Jenga",
+    "b": "Mikado",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0818",
+    "a": "Tombala",
+    "b": "Loto",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0819",
+    "a": "Mangala",
+    "b": "Dama",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0820",
+    "a": "Reversi",
+    "b": "Go",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0821",
+    "a": "Sudoku",
+    "b": "Kakuro",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0822",
+    "a": "Bulmaca",
+    "b": "Kelime avı",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0823",
+    "a": "Rubik küpü",
+    "b": "Zeka halkası",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0824",
+    "a": "Bilardo",
+    "b": "Snooker",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0825",
+    "a": "Langırt",
+    "b": "Air hockey",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0826",
+    "a": "Bowling",
+    "b": "Dokuztaş",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0827",
+    "a": "Hulahop",
+    "b": "İp atlama",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0828",
+    "a": "Çelik çomak",
+    "b": "Uzun eşek",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0829",
+    "a": "Mendil kapmaca",
+    "b": "Bayrak kapmaca",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0830",
+    "a": "Köşe kapmaca",
+    "b": "Sandalye kapmaca",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0831",
+    "a": "Yağ satarım",
+    "b": "Kutu kutu pense",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0832",
+    "a": "Misket",
+    "b": "Bilyeli labirent",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0833",
+    "a": "Sapan",
+    "b": "Yay",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0834",
+    "a": "Parmak kuklası",
+    "b": "El kuklası",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0835",
+    "a": "Oyun evi",
+    "b": "Çadır ev",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0836",
+    "a": "Mutfak seti",
+    "b": "Tamir seti",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0837",
+    "a": "Tren rayı",
+    "b": "Yarış pisti",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0838",
+    "a": "Manyetik blok",
+    "b": "Ahşap blok",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0839",
+    "a": "Robot oyuncak",
+    "b": "Uzaktan kumandalı araba",
+    "category": "Oyunlar ve oyuncaklar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0840",
+    "a": "Resim",
+    "b": "Fotoğraf",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0841",
+    "a": "Heykel",
+    "b": "Seramik",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0842",
+    "a": "Dans",
+    "b": "Bale",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0843",
+    "a": "Konser",
+    "b": "Festival",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0844",
+    "a": "Sirk",
+    "b": "Lunapark",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0845",
+    "a": "Roman",
+    "b": "Öykü",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0846",
+    "a": "Şiir",
+    "b": "Şarkı sözü",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0847",
+    "a": "Çizgi film",
+    "b": "Çizgi roman",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0848",
+    "a": "Karikatür",
+    "b": "Portre",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0849",
+    "a": "Sahne",
+    "b": "Perde",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0850",
+    "a": "Oyuncu",
+    "b": "Yönetmen",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0851",
+    "a": "El kuklası",
+    "b": "İpli kukla",
+    "category": "Sanat ve gösteri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0852",
+    "a": "Opera",
+    "b": "Müzikal",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0853",
+    "a": "Operet",
+    "b": "Kabare",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0854",
+    "a": "Stand-up",
+    "b": "Tek kişilik oyun",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0855",
+    "a": "Pandomim",
+    "b": "Sessiz sinema",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0856",
+    "a": "Doğaçlama",
+    "b": "Tiyatro oyunu",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0857",
+    "a": "Belgesel",
+    "b": "Haber filmi",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0858",
+    "a": "Kısa film",
+    "b": "Uzun metraj",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0859",
+    "a": "Animasyon",
+    "b": "Stop motion",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0860",
+    "a": "Fragman",
+    "b": "Klip",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0861",
+    "a": "Dublaj",
+    "b": "Altyazı",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0862",
+    "a": "Senaryo",
+    "b": "Öykü taslağı",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0863",
+    "a": "Eskiz",
+    "b": "Taslak",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0864",
+    "a": "Suluboya",
+    "b": "Yağlıboya",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0865",
+    "a": "Pastel",
+    "b": "Kuru boya",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0866",
+    "a": "Fresk",
+    "b": "Duvar resmi",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0867",
+    "a": "Mozaik",
+    "b": "Kolaj",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0868",
+    "a": "Gravür",
+    "b": "Linolyum baskı",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0869",
+    "a": "Ebru",
+    "b": "Batik",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0870",
+    "a": "Origami",
+    "b": "Kağıt kesme",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0871",
+    "a": "Kaligrafi",
+    "b": "Tipografi",
+    "category": "Sanat ve gösteri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0872",
+    "a": "Natürmort",
+    "b": "Manzara resmi",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0873",
+    "a": "Otoportre",
+    "b": "Portre",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0874",
+    "a": "Rölyef",
+    "b": "Heykel",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0875",
+    "a": "Çömlek",
+    "b": "Porselen",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0876",
+    "a": "Vernik",
+    "b": "Cila",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0877",
+    "a": "Palet",
+    "b": "Şövale",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0878",
+    "a": "Tuval",
+    "b": "Resim kağıdı",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0879",
+    "a": "Fırça",
+    "b": "Spatula bıçağı",
+    "category": "Sanat ve gösteri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0880",
+    "a": "Gitar",
+    "b": "Bağlama",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0881",
+    "a": "Piyano",
+    "b": "Org",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0882",
+    "a": "Keman",
+    "b": "Viyola",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0883",
+    "a": "Flüt",
+    "b": "Kaval",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0884",
+    "a": "Davul",
+    "b": "Bateri",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0885",
+    "a": "Zil",
+    "b": "Çan",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0886",
+    "a": "Trompet",
+    "b": "Saksafon",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0887",
+    "a": "Arp",
+    "b": "Kanun",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0888",
+    "a": "Mikrofon",
+    "b": "Megafon",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0889",
+    "a": "Kulaklık",
+    "b": "Hoparlör",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0890",
+    "a": "Şarkı",
+    "b": "Türkü",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0891",
+    "a": "Solo",
+    "b": "Koro",
+    "category": "Müzik",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0892",
+    "a": "Akustik gitar",
+    "b": "Elektrogitar",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0893",
+    "a": "Bas gitar",
+    "b": "Kontrbas",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0894",
+    "a": "Çello",
+    "b": "Kontrbas",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0895",
+    "a": "Ud",
+    "b": "Lavta",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0896",
+    "a": "Mandolin",
+    "b": "Banjo",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0897",
+    "a": "Balalayka",
+    "b": "Buzuki",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0898",
+    "a": "Klarnet",
+    "b": "Obua",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0899",
+    "a": "Fagot",
+    "b": "Klarnet",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0900",
+    "a": "Trombon",
+    "b": "Tuba",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0901",
+    "a": "Ney",
+    "b": "Kaval",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0902",
+    "a": "Pan flüt",
+    "b": "Mızıka",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0903",
+    "a": "Akordeon",
+    "b": "Bandoneon",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0904",
+    "a": "Darbuka",
+    "b": "Bongo",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0905",
+    "a": "Tef",
+    "b": "Tamburin",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0906",
+    "a": "Marakas",
+    "b": "Kastanyet",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0907",
+    "a": "Ksilofon",
+    "b": "Metalofon",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0908",
+    "a": "Kalimba",
+    "b": "Müzik kutusu",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0909",
+    "a": "Synthesizer",
+    "b": "Elektronik piyano",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0910",
+    "a": "Metronom",
+    "b": "Akort cihazı",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0911",
+    "a": "Nota",
+    "b": "Akor",
+    "category": "Müzik",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0912",
+    "a": "Ritim",
+    "b": "Melodi",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0913",
+    "a": "Beste",
+    "b": "Aranje",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0914",
+    "a": "Nakarat",
+    "b": "Kıta",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0915",
+    "a": "Düet",
+    "b": "Trio",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0916",
+    "a": "Orkestra",
+    "b": "Bando",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0917",
+    "a": "Jazz",
+    "b": "Blues",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0918",
+    "a": "Rock",
+    "b": "Metal",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0919",
+    "a": "Pop",
+    "b": "Disko",
+    "category": "Müzik",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0920",
+    "a": "Kalem",
+    "b": "Silgi",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0921",
+    "a": "Defter",
+    "b": "Kitap",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0922",
+    "a": "Cetvel",
+    "b": "Mezura",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0923",
+    "a": "Tahta",
+    "b": "Pano",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0924",
+    "a": "Sıra",
+    "b": "Masa",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0925",
+    "a": "Çanta",
+    "b": "Kalemlik",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0926",
+    "a": "Tebeşir",
+    "b": "Keçeli kalem",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0927",
+    "a": "Makas",
+    "b": "Maket bıçağı",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0928",
+    "a": "Tutkal",
+    "b": "Bant",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0929",
+    "a": "Zımba",
+    "b": "Delgeç",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0930",
+    "a": "Harita",
+    "b": "Küre",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0931",
+    "a": "Ders",
+    "b": "Sınav",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0932",
+    "a": "Kurşun kalem",
+    "b": "Uçlu kalem",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0933",
+    "a": "Tükenmez kalem",
+    "b": "Dolma kalem",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0934",
+    "a": "Fosforlu kalem",
+    "b": "Tahta kalemi",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0935",
+    "a": "Kuru boya",
+    "b": "Pastel boya",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0936",
+    "a": "Resim defteri",
+    "b": "Eskiz defteri",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0937",
+    "a": "Çizgili defter",
+    "b": "Kareli defter",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0938",
+    "a": "Ajanda",
+    "b": "Planlayıcı",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0939",
+    "a": "Klasör",
+    "b": "Dosya",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0940",
+    "a": "Şeffaf dosya",
+    "b": "Zarf",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0941",
+    "a": "Ataş",
+    "b": "Raptiye",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0942",
+    "a": "İğne",
+    "b": "Raptiye",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0943",
+    "a": "Pergel",
+    "b": "İletki",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0944",
+    "a": "Gönye",
+    "b": "Cetvel",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0945",
+    "a": "Büyüteç",
+    "b": "Mikroskop",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0946",
+    "a": "Hesap makinesi",
+    "b": "Abaküs",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0947",
+    "a": "Sözlük",
+    "b": "Ansiklopedi",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0948",
+    "a": "Atlas",
+    "b": "Coğrafya kitabı",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0949",
+    "a": "Karne",
+    "b": "Diploma",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0950",
+    "a": "Ödev",
+    "b": "Proje",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0951",
+    "a": "Kütüphane",
+    "b": "Etüt salonu",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0952",
+    "a": "Laboratuvar",
+    "b": "Atölye",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0953",
+    "a": "Sunum",
+    "b": "Münazara",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0954",
+    "a": "Seminer",
+    "b": "Konferans",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0955",
+    "a": "Staj",
+    "b": "Kurs",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0956",
+    "a": "Çıkartma",
+    "b": "Etiket",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0957",
+    "a": "Şablon",
+    "b": "Mühür",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0958",
+    "a": "Karbon kağıdı",
+    "b": "Aydınger",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0959",
+    "a": "Post-it",
+    "b": "İndeks kartı",
+    "category": "Okul ve kırtasiye",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0960",
+    "a": "Doktor",
+    "b": "Hemşire",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0961",
+    "a": "Öğretmen",
+    "b": "Profesör",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0962",
+    "a": "Aşçı",
+    "b": "Pastacı",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0963",
+    "a": "Berber",
+    "b": "Kuaför",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0964",
+    "a": "Terzi",
+    "b": "Ayakkabıcı",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0965",
+    "a": "Çiftçi",
+    "b": "Bahçıvan",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0966",
+    "a": "Pilot",
+    "b": "Kaptan",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0967",
+    "a": "Şoför",
+    "b": "Makinist",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0968",
+    "a": "Mimar",
+    "b": "Mühendis",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0969",
+    "a": "Ressam",
+    "b": "Fotoğrafçı",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0970",
+    "a": "Polis",
+    "b": "İtfaiyeci",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0971",
+    "a": "Kasiyer",
+    "b": "Satış danışmanı",
+    "category": "Meslekler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-0972",
+    "a": "Veteriner",
+    "b": "Zoolog",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0973",
+    "a": "Diş hekimi",
+    "b": "Ortodontist",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0974",
+    "a": "Eczacı",
+    "b": "Kimyager",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0975",
+    "a": "Fizyoterapist",
+    "b": "Masör",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0976",
+    "a": "Psikolog",
+    "b": "Rehber öğretmen",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0977",
+    "a": "Diyetisyen",
+    "b": "Gıda mühendisi",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0978",
+    "a": "Yazılımcı",
+    "b": "Veri analisti",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0979",
+    "a": "Grafik tasarımcı",
+    "b": "İllüstratör",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0980",
+    "a": "Muhabir",
+    "b": "Sunucu",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0981",
+    "a": "Editör",
+    "b": "Düzeltmen",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0982",
+    "a": "Çevirmen",
+    "b": "Editör",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0983",
+    "a": "Oyuncu",
+    "b": "Seslendirme sanatçısı",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0984",
+    "a": "Müzisyen",
+    "b": "Besteci",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0985",
+    "a": "Orkestra şefi",
+    "b": "Koro şefi",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0986",
+    "a": "Dansçı",
+    "b": "Koreograf",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0987",
+    "a": "Antrenör",
+    "b": "Hakem",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0988",
+    "a": "Marangoz",
+    "b": "Mobilyacı",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0989",
+    "a": "Elektrikçi",
+    "b": "Tesisatçı",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0990",
+    "a": "Boyacı",
+    "b": "Sıvacı",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0991",
+    "a": "Kaynakçı",
+    "b": "Demirci",
+    "category": "Meslekler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-0992",
+    "a": "Arkeolog",
+    "b": "Jeolog",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0993",
+    "a": "Astronom",
+    "b": "Astronot",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0994",
+    "a": "Meteorolog",
+    "b": "İklimbilimci",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0995",
+    "a": "Kütüphaneci",
+    "b": "Arşivci",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0996",
+    "a": "Müze rehberi",
+    "b": "Tur rehberi",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0997",
+    "a": "Çiçekçi",
+    "b": "Peyzaj mimarı",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0998",
+    "a": "Saatçi",
+    "b": "Kuyumcu",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-0999",
+    "a": "Arıcı",
+    "b": "İpek böceği yetiştiricisi",
+    "category": "Meslekler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1000",
+    "a": "Bilgisayar",
+    "b": "Tablet",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1001",
+    "a": "Telefon",
+    "b": "Akıllı saat",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1002",
+    "a": "Televizyon",
+    "b": "Projektör",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1003",
+    "a": "Yazıcı",
+    "b": "Tarayıcı",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1004",
+    "a": "Klavye",
+    "b": "Fare",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1005",
+    "a": "Kamera",
+    "b": "Web kamera",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1006",
+    "a": "Şarj aleti",
+    "b": "Powerbank",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1007",
+    "a": "USB bellek",
+    "b": "Harici disk",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1008",
+    "a": "Modem",
+    "b": "Router",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1009",
+    "a": "Kumanda",
+    "b": "Oyun kolu",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1010",
+    "a": "Robot",
+    "b": "Drone",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1011",
+    "a": "Monitör",
+    "b": "Projeksiyon perdesi",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1012",
+    "a": "Dizüstü bilgisayar",
+    "b": "Masaüstü bilgisayar",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1013",
+    "a": "E-kitap okuyucu",
+    "b": "Tablet",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1014",
+    "a": "Oyun konsolu",
+    "b": "Oyun bilgisayarı",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1015",
+    "a": "VR gözlüğü",
+    "b": "AR gözlüğü",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1016",
+    "a": "Akıllı bileklik",
+    "b": "Akıllı yüzük",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1017",
+    "a": "Kulak içi kulaklık",
+    "b": "Kulak üstü kulaklık",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1018",
+    "a": "Bluetooth hoparlör",
+    "b": "Akıllı hoparlör",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1019",
+    "a": "Ses kartı",
+    "b": "Amfi",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1020",
+    "a": "Grafik tablet",
+    "b": "Dokunmatik ekran",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1021",
+    "a": "Dokunmatik kalem",
+    "b": "Fare",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1022",
+    "a": "Mekanik klavye",
+    "b": "Membran klavye",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1023",
+    "a": "Touchpad",
+    "b": "Trackball",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1024",
+    "a": "SSD",
+    "b": "Hafıza kartı",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1025",
+    "a": "İşlemci",
+    "b": "Ekran kartı",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1026",
+    "a": "Anakart",
+    "b": "Güç kaynağı",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1027",
+    "a": "Kablo",
+    "b": "Adaptör",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1028",
+    "a": "HDMI",
+    "b": "USB-C",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1029",
+    "a": "Ethernet",
+    "b": "Wi-Fi",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1030",
+    "a": "Bluetooth",
+    "b": "NFC",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1031",
+    "a": "Barkod okuyucu",
+    "b": "QR okuyucu",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1032",
+    "a": "3D yazıcı",
+    "b": "Lazer kesici",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1033",
+    "a": "Akıllı priz",
+    "b": "Zamanlayıcı priz",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1034",
+    "a": "Hareket sensörü",
+    "b": "Işık sensörü",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1035",
+    "a": "Kapı zili",
+    "b": "İnterkom",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1036",
+    "a": "Termostat",
+    "b": "Zaman saati",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1037",
+    "a": "Güvenlik kamerası",
+    "b": "Bebek kamerası",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1038",
+    "a": "Dijital fotoğraf çerçevesi",
+    "b": "Tablet standı",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1039",
+    "a": "Güneş paneli",
+    "b": "Pil",
+    "category": "Teknoloji ve cihazlar",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1040",
+    "a": "Mektup",
+    "b": "Kartpostal",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1041",
+    "a": "Gazete",
+    "b": "Dergi",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1042",
+    "a": "Radyo",
+    "b": "Podcast",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1043",
+    "a": "Haber",
+    "b": "Belgesel",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1044",
+    "a": "Mesaj",
+    "b": "E-posta",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1045",
+    "a": "Telefon görüşmesi",
+    "b": "Görüntülü görüşme",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1046",
+    "a": "Fotoğraf",
+    "b": "Video",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1047",
+    "a": "Blog",
+    "b": "Günlük",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1048",
+    "a": "Reklam",
+    "b": "Afiş",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1049",
+    "a": "Davetiye",
+    "b": "Duyuru",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1050",
+    "a": "Kitap",
+    "b": "E-kitap",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1051",
+    "a": "Harita",
+    "b": "Broşür",
+    "category": "İletişim ve medya",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1052",
+    "a": "Manşet",
+    "b": "Başlık",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1053",
+    "a": "Köşe yazısı",
+    "b": "Röportaj",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1054",
+    "a": "Söyleşi",
+    "b": "Panel",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1055",
+    "a": "Canlı yayın",
+    "b": "Kayıt",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1056",
+    "a": "Sesli kitap",
+    "b": "Podcast",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1057",
+    "a": "Radyo programı",
+    "b": "Televizyon programı",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1058",
+    "a": "Dizi",
+    "b": "Film",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1059",
+    "a": "Mini dizi",
+    "b": "İnternet dizisi",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1060",
+    "a": "Haber bülteni",
+    "b": "Hava durumu bülteni",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1061",
+    "a": "Abonelik",
+    "b": "Üyelik",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1062",
+    "a": "Takipçi",
+    "b": "Abone",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1063",
+    "a": "Yorum",
+    "b": "Değerlendirme",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1064",
+    "a": "Beğeni",
+    "b": "Favori",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1065",
+    "a": "Paylaşım",
+    "b": "Yeniden gönderi",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1066",
+    "a": "Hikâye",
+    "b": "Gönderi",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1067",
+    "a": "Profil",
+    "b": "Avatar",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1068",
+    "a": "Kullanıcı adı",
+    "b": "Takma ad",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1069",
+    "a": "Hashtag",
+    "b": "Anahtar kelime",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1070",
+    "a": "Bildirim",
+    "b": "Hatırlatıcı",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1071",
+    "a": "Etkinlik",
+    "b": "Takvim daveti",
+    "category": "İletişim ve medya",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1072",
+    "a": "Bülten",
+    "b": "Duyuru listesi",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1073",
+    "a": "Moderatör",
+    "b": "Yönetici",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1074",
+    "a": "Forum",
+    "b": "Sohbet odası",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1075",
+    "a": "Grup sohbeti",
+    "b": "Topluluk",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1076",
+    "a": "Yazışma",
+    "b": "Anlık mesajlaşma",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1077",
+    "a": "Sesli mesaj",
+    "b": "Telesekreter",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1078",
+    "a": "İmza",
+    "b": "Mühür",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1079",
+    "a": "Pul",
+    "b": "Etiket",
+    "category": "İletişim ve medya",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1080",
+    "a": "El",
+    "b": "Ayak",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1081",
+    "a": "Göz",
+    "b": "Kulak",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1082",
+    "a": "Diz",
+    "b": "Dirsek",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1083",
+    "a": "Parmak",
+    "b": "Ayak parmağı",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1084",
+    "a": "Saç",
+    "b": "Sakal",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1085",
+    "a": "Diş",
+    "b": "Tırnak",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1086",
+    "a": "Kalp",
+    "b": "Akciğer",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1087",
+    "a": "Mide",
+    "b": "Bağırsak",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1088",
+    "a": "Kas",
+    "b": "Kemik",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1089",
+    "a": "Burun",
+    "b": "Dil",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1090",
+    "a": "Hastane",
+    "b": "Klinik",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1091",
+    "a": "Bandaj",
+    "b": "Yara bandı",
+    "category": "Sağlık ve beden",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1092",
+    "a": "Bilek",
+    "b": "Ayak bileği",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1093",
+    "a": "Omuz",
+    "b": "Kalça",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1094",
+    "a": "Kol",
+    "b": "Bacak",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1095",
+    "a": "Avuç",
+    "b": "Taban",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1096",
+    "a": "Kaş",
+    "b": "Kirpik",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1097",
+    "a": "Alın",
+    "b": "Çene",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1098",
+    "a": "Yanak",
+    "b": "Şakak",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1099",
+    "a": "Omurga",
+    "b": "Kaburga",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1100",
+    "a": "Nabız",
+    "b": "Tansiyon",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1101",
+    "a": "Stetoskop",
+    "b": "Tansiyon aleti",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1102",
+    "a": "Termometre",
+    "b": "Ateş ölçer bant",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1103",
+    "a": "Röntgen",
+    "b": "Ultrason",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1104",
+    "a": "MR",
+    "b": "Tomografi",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1105",
+    "a": "Reçete",
+    "b": "Rapor",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1106",
+    "a": "Muayene",
+    "b": "Kontrol",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1107",
+    "a": "Aşı",
+    "b": "Kan tahlili",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1108",
+    "a": "Eczane",
+    "b": "Medikal mağaza",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1109",
+    "a": "Baston",
+    "b": "Koltuk değneği",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1110",
+    "a": "Tekerlekli sandalye",
+    "b": "Yürüteç",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1111",
+    "a": "Atel",
+    "b": "Alçı",
+    "category": "Sağlık ve beden",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1112",
+    "a": "Sargı bezi",
+    "b": "Gazlı bez",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1113",
+    "a": "Steril eldiven",
+    "b": "Maske",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1114",
+    "a": "Buz torbası",
+    "b": "Sıcak su torbası",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1115",
+    "a": "İlk yardım çantası",
+    "b": "Ecza dolabı",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1116",
+    "a": "Fizyoterapi",
+    "b": "Rehabilitasyon",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1117",
+    "a": "Esneme",
+    "b": "Isınma",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1118",
+    "a": "Uyku",
+    "b": "Şekerleme",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1119",
+    "a": "Gözlük",
+    "b": "İşitme cihazı",
+    "category": "Sağlık ve beden",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1120",
+    "a": "Kamp",
+    "b": "Piknik",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1121",
+    "a": "Otel",
+    "b": "Tatil köyü",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1122",
+    "a": "Bavul",
+    "b": "Sırt çantası",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1123",
+    "a": "Sahil",
+    "b": "Dağ",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1124",
+    "a": "Hamak",
+    "b": "Şezlong",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1125",
+    "a": "Uyku tulumu",
+    "b": "Battaniye",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1126",
+    "a": "Kamp ateşi",
+    "b": "Mangal",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1127",
+    "a": "Fener",
+    "b": "El feneri",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1128",
+    "a": "Pusula",
+    "b": "Harita",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1129",
+    "a": "Fotoğraf makinesi",
+    "b": "Dürbün",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1130",
+    "a": "Hediyelik eşya",
+    "b": "Kartpostal",
+    "category": "Tatil ve kamp",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1131",
+    "a": "Tatil evi",
+    "b": "Bungalov",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1132",
+    "a": "Hostel",
+    "b": "Pansiyon",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1133",
+    "a": "Dağ evi",
+    "b": "Yayla evi",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1134",
+    "a": "Çadır kampı",
+    "b": "Glamping",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1135",
+    "a": "Kamp sandalyesi",
+    "b": "Katlanan tabure",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1136",
+    "a": "Kamp masası",
+    "b": "Piknik masası",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1137",
+    "a": "Mat",
+    "b": "Şişme yatak",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1138",
+    "a": "Kamp ocağı",
+    "b": "Portatif mangal",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1139",
+    "a": "Termos",
+    "b": "Matara",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1140",
+    "a": "Soğutucu çanta",
+    "b": "Buz kutusu",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1141",
+    "a": "Yürüyüş botu",
+    "b": "Dağ botu",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1142",
+    "a": "Yağmurluk",
+    "b": "Rüzgârlık",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1143",
+    "a": "Güneşlik",
+    "b": "Plaj şemsiyesi",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1144",
+    "a": "Plaj havlusu",
+    "b": "Pareo",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1145",
+    "a": "Deniz çantası",
+    "b": "Piknik sepeti",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1146",
+    "a": "Rota",
+    "b": "Parkur",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1147",
+    "a": "Seyir terası",
+    "b": "Manzara noktası",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1148",
+    "a": "Rehber kitap",
+    "b": "Gezi günlüğü",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1149",
+    "a": "Müze kartı",
+    "b": "Şehir kartı",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1150",
+    "a": "Sırt çantalı gezi",
+    "b": "Paket tur",
+    "category": "Tatil ve kamp",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1151",
+    "a": "Doğa yürüyüşü",
+    "b": "Oryantiring",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1152",
+    "a": "Safari",
+    "b": "Kuş gözlemi",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1153",
+    "a": "Kano gezisi",
+    "b": "Rafting",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1154",
+    "a": "Bisiklet turu",
+    "b": "Yürüyüş turu",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1155",
+    "a": "Balayı",
+    "b": "Hafta sonu kaçamağı",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1156",
+    "a": "Kruvaziyer",
+    "b": "Feribot yolculuğu",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1157",
+    "a": "Günlük gezi",
+    "b": "Konaklamalı gezi",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1158",
+    "a": "Kamp alanı",
+    "b": "Mesire yeri",
+    "category": "Tatil ve kamp",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1159",
+    "a": "Çekiç",
+    "b": "Tokmak",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1160",
+    "a": "Tornavida",
+    "b": "Alyan",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1161",
+    "a": "Testere",
+    "b": "Balta",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1162",
+    "a": "Pense",
+    "b": "Kerpeten",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1163",
+    "a": "Vida",
+    "b": "Çivi",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1164",
+    "a": "Somun",
+    "b": "Pul",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1165",
+    "a": "Matkap",
+    "b": "Vidalama makinesi",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1166",
+    "a": "Fırça",
+    "b": "Rulo",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1167",
+    "a": "İğne",
+    "b": "Tığ",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1168",
+    "a": "Örgü",
+    "b": "Dikiş",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1169",
+    "a": "İp",
+    "b": "Halat",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1170",
+    "a": "Bant",
+    "b": "Yapıştırıcı",
+    "category": "Aletler ve el işleri",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1171",
+    "a": "Kombine anahtar",
+    "b": "Lokma takımı",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1172",
+    "a": "İngiliz anahtarı",
+    "b": "Boru anahtarı",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1173",
+    "a": "Mengene",
+    "b": "İşkence",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1174",
+    "a": "Zımpara",
+    "b": "Eğe",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1175",
+    "a": "Keski",
+    "b": "Iskarpela",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1176",
+    "a": "Su terazisi",
+    "b": "Şakül",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1177",
+    "a": "Metre",
+    "b": "Lazer metre",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1178",
+    "a": "Gönye",
+    "b": "Açı ölçer",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1179",
+    "a": "Merdiven",
+    "b": "İskele",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1180",
+    "a": "El arabası",
+    "b": "Taşıma arabası",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1181",
+    "a": "Kova",
+    "b": "Leğen",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1182",
+    "a": "Kürek",
+    "b": "Kazma",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1183",
+    "a": "Budama makası",
+    "b": "Dal testeresi",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1184",
+    "a": "Lehim makinesi",
+    "b": "Sıcak silikon tabancası",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1185",
+    "a": "Dikiş makinesi",
+    "b": "Overlok makinesi",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1186",
+    "a": "Şiş",
+    "b": "Tığ",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1187",
+    "a": "Nakış",
+    "b": "Kanaviçe",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1188",
+    "a": "Keçe",
+    "b": "Kumaş",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1189",
+    "a": "Yün iplik",
+    "b": "Pamuk iplik",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1190",
+    "a": "Makrome",
+    "b": "Dantel",
+    "category": "Aletler ve el işleri",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1191",
+    "a": "Kurdele",
+    "b": "Şerit",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1192",
+    "a": "Boncuk",
+    "b": "Payet",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1193",
+    "a": "Düğme",
+    "b": "Çıtçıt",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1194",
+    "a": "Fermuar",
+    "b": "Cırt cırt",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1195",
+    "a": "İğnelik",
+    "b": "Dikiş kutusu",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1196",
+    "a": "Kasnak",
+    "b": "Gergef",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1197",
+    "a": "Kil",
+    "b": "Seramik hamuru",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1198",
+    "a": "Sabun yapımı",
+    "b": "Mum yapımı",
+    "category": "Aletler ve el işleri",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1199",
+    "a": "Doğum günü",
+    "b": "Yılbaşı",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1200",
+    "a": "Düğün",
+    "b": "Nişan",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1201",
+    "a": "Mezuniyet",
+    "b": "Karne günü",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1202",
+    "a": "Kahvaltı",
+    "b": "Brunch",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1203",
+    "a": "Öğle yemeği",
+    "b": "Akşam yemeği",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1204",
+    "a": "Alışveriş",
+    "b": "Pazar gezisi",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1205",
+    "a": "Temizlik",
+    "b": "Düzenleme",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1206",
+    "a": "Yıkama",
+    "b": "Durulama",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1207",
+    "a": "Uyumak",
+    "b": "Dinlenmek",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1208",
+    "a": "Çalışmak",
+    "b": "Ders çalışmak",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1209",
+    "a": "Gezmek",
+    "b": "Yürümek",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1210",
+    "a": "Beklemek",
+    "b": "Kuyrukta durmak",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "kolay"
+  },
+  {
+    "id": "kosto-1211",
+    "a": "Taşınma",
+    "b": "Tadilat",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1212",
+    "a": "Ev gezmesi",
+    "b": "Akşam daveti",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1213",
+    "a": "Çay saati",
+    "b": "Kahve molası",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1214",
+    "a": "Film gecesi",
+    "b": "Oyun gecesi",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1215",
+    "a": "Kitap kulübü",
+    "b": "Yazı atölyesi",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1216",
+    "a": "Prova",
+    "b": "Gösteri",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1217",
+    "a": "Açılış",
+    "b": "Kutlama",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1218",
+    "a": "Sergi",
+    "b": "Fuar",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1219",
+    "a": "Kermes",
+    "b": "Bit pazarı",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1220",
+    "a": "Yarışma",
+    "b": "Çekiliş",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1221",
+    "a": "Turnuva",
+    "b": "Lig",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1222",
+    "a": "Antrenman",
+    "b": "Isınma",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1223",
+    "a": "Randevu",
+    "b": "Toplantı",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1224",
+    "a": "Mola",
+    "b": "Teneffüs",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1225",
+    "a": "Erteleme",
+    "b": "İptal",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1226",
+    "a": "Plan",
+    "b": "Program",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1227",
+    "a": "Liste",
+    "b": "Takvim",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1228",
+    "a": "Hediye",
+    "b": "Ödül",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1229",
+    "a": "Sürpriz",
+    "b": "Gizem",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1230",
+    "a": "Davet",
+    "b": "Katılım",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "orta"
+  },
+  {
+    "id": "kosto-1231",
+    "a": "Tasarruf",
+    "b": "Birikim",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1232",
+    "a": "Alışkanlık",
+    "b": "Rutin",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1233",
+    "a": "Hatıra",
+    "b": "Anı defteri",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1234",
+    "a": "Koleksiyon",
+    "b": "Arşiv",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1235",
+    "a": "Hobi",
+    "b": "Kurs",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1236",
+    "a": "Gönüllülük",
+    "b": "Dayanışma",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1237",
+    "a": "Tamir",
+    "b": "Yenileme",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  },
+  {
+    "id": "kosto-1238",
+    "a": "Geri dönüşüm",
+    "b": "İleri dönüşüm",
+    "category": "Günlük yaşam ve etkinlikler",
+    "difficulty": "zor"
+  }
+]
