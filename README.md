@@ -50,7 +50,21 @@ node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js d1
 npm run dev
 ```
 
-Geliştirme sunucusu çıktısındaki Local adresini açın. Aynı migration'ı mevcut yerel veritabanına yeniden uygulamayın. Üretim yayını Sites üzerinden yapılır; `.openai/hosting.json` proje kimliği ve D1 bağını taşır. Kaynak GitHub'da ayrıca saklanır. Bu uygulama sunucu işlemleri kullandığından **yalnızca GitHub Pages'e yüklenerek çok oyunculu çalışmaz**.
+Geliştirme sunucusu çıktısındaki Local adresini açın. Aynı migration'ı mevcut yerel veritabanına yeniden uygulamayın. Oyun API'si Sites üzerindeki Worker/D1 ile çalışır; `.openai/hosting.json` proje kimliği ve D1 bağını taşır.
+
+## GitHub Pages yayını
+
+Arayüz `https://srnahmet.github.io/kosto/` adresine yayınlanacak şekilde hazırlanmıştır. GitHub Pages HTML/CSS/JavaScript dosyalarını sunar; gizli roller, kelime çekilişi, masa kayıtları ve ses sinyalleşmesi `https://kosto-bahce.srnahmet.chatgpt.site/api/room` üzerindeki mevcut sunucuda kalır. İstemciye yalnızca kelime sayısı ve kategoriler eklenir; kelime çiftleri eklenmez.
+
+```sh
+npm run build:pages
+node scripts/check-pages.mjs
+npm run preview:pages
+```
+
+Üretim dosyaları `dist-pages/` altındadır. `vite.pages.config.ts` `/kosto/` taban yolunu belirler. Ana sayfa, davet bağlantıları ve sayfa yenileme bu yolu korur. API yalnızca kendi alan adından ve `https://srnahmet.github.io` üzerinden gelen tarayıcı isteklerini kabul eder; genel CORS izni verilmez. Yeni oturumlar her alan adının kendi tarayıcı depolamasında saklanır.
+
+GitHub'da Settings → Pages → Source: **GitHub Actions** seçilir. `main` dalına her gönderimde oyun/veri ve HTTP testleri, TypeScript kontrolü, Worker ve Pages derlemeleri tamamlanır; başarılı paket GitHub Pages'e yayınlanır. API kodu değiştiğinde Worker ayrıca Sites yayın akışıyla güncellenmelidir. API çalışır durumda kalmalıdır; GitHub Pages oyun sunucusu çalıştırmaz.
 
 HTTP testleri için çalışan yerel sunucu üzerinde `TEST_BASE_URL=http://127.0.0.1:5174` ortam değişkeniyle `node --test tests/api.test.mjs` çalıştırın. Testler kendi masalarını oluşturur; üretimde çalıştırmak yerine yerel veritabanını kullanın.
 
@@ -68,6 +82,6 @@ HTTP testleri için çalışan yerel sunucu üzerinde `TEST_BASE_URL=http://127.
 
 ## Doğrulama
 
-27 oyun/veri testi ve iki bağımsız HTTP senaryosu: üç oyunculu oyunun iki tam konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Ayrıca TypeScript kontrolü, üretim derlemesi ve yerel tarayıcıda masa kurma/hazır olma/tema değiştirme kontrol edildi.
+29 oyun/veri/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun iki tam konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Ayrıca TypeScript kontrolü, Worker/Pages üretim derlemeleri ve yerel tarayıcıda masa kurma/hazır olma/tema değiştirme kontrol edildi. Pages paketinin `/kosto/` yolları, fontları ve sunucu verilerini içermemesi ayrıca denetlenir.
 
 Kelime havuzunun seçim ölçütleri, kategori dağılımı ve editoryal sınırları: [data/WORDS.md](data/WORDS.md).

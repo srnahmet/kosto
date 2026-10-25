@@ -3,9 +3,22 @@ import assert from 'node:assert/strict';
 const base=process.env.TEST_BASE_URL;
 async function api(action,payload={},token=''){
   const response=await fetch(base+'/api/room',{method:'POST',headers:{'Content-Type':'application/json',...(token?{Authorization:'Bearer '+token}:{})},body:JSON.stringify({action,...payload})});
-  const data=await response.json();return {status:response.status,...data};
+  const raw=await response.text();let data;try{data=JSON.parse(raw);}catch{throw new Error(`HTTP ${response.status}: ${raw.slice(0,300)}`);}return {status:response.status,...data};
 }
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+test('HTTP: Pages preflight, allowed origin and cross-origin membership', {skip:!base,timeout:15000},async()=>{
+  const origin='https://srnahmet.github.io',url=base+'/api/room';
+  const preflight=await fetch(url,{method:'OPTIONS',headers:{Origin:origin,'Access-Control-Request-Method':'POST','Access-Control-Request-Headers':'content-type,authorization'}});
+  assert.equal(preflight.status,204);assert.equal(preflight.headers.get('access-control-allow-origin'),origin);
+  const denied=await fetch(url,{method:'OPTIONS',headers:{Origin:'https://other.github.io'}});
+  assert.equal(denied.status,403);assert.equal(denied.headers.get('access-control-allow-origin'),null);
+  const rejected=await fetch(url,{method:'POST',headers:{Origin:'https://other.github.io','Content-Type':'application/json'},body:JSON.stringify({action:'create',name:'Blocked'})});assert.equal(rejected.status,403);await rejected.text();
+  const created=await fetch(url,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json'},body:JSON.stringify({action:'create',name:'Pages Testi',settings:{}})});
+  assert.equal(created.status,200);assert.equal(created.headers.get('access-control-allow-origin'),origin);const c=await created.json();
+  const get=await fetch(url,{method:'POST',headers:{Origin:origin,'Content-Type':'application/json',Authorization:'Bearer '+c.token},body:JSON.stringify({action:'get',code:c.room.code})});
+  assert.equal(get.status,200);assert.equal(get.headers.get('access-control-allow-origin'),origin);assert.equal((await get.json()).room.code,c.room.code);
+  await api('leave',{code:c.room.code},c.token);
+});
 test('HTTP: independent clients complete real three-player game', {skip:!base,timeout:90000},async()=>{
   const created=await api('create',{name:'Ada',settings:{}});assert.equal(created.status,200);const code=created.room.code;
   const [b,c]=await Promise.all(['Bora','Cem'].map(name=>api('join',{code,name})));assert.equal(b.status,200);assert.equal(c.status,200);
@@ -49,3 +62,4 @@ test('HTTP: spectator host, simultaneous joins, two moles and private signaling'
   const kick=await api('kick',{code,target:ps[5].room.selfId},host.token);assert.equal(kick.status,200);
   const blocked=await api('get',{code},ps[5].token);assert.equal(blocked.status,403);
 });
+

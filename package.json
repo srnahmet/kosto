@@ -14,7 +14,9 @@
     "db:generate": "drizzle-kit generate",
     "test": "node --test tests/*.test.mjs",
     "typecheck": "tsc --noEmit",
-    "test:http": "node scripts/verify-http.mjs"
+    "test:http": "node scripts/verify-http.mjs",
+    "build:pages": "vite build --config vite.pages.config.ts",
+    "preview:pages": "vite preview --config vite.pages.config.ts --host 127.0.0.1"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
