@@ -21,7 +21,7 @@ const initial:Options={moles:1,revealRole:false,knowMoles:false,circuits:1,secon
 const themes=[{id:'lagoon',name:'Turkuaz Bahçe',color:'#61bfb5'},{id:'peach',name:'Şeftali Sabahı',color:'#e6a087'},{id:'lilac',name:'Lavanta Düşü',color:'#ad9acb'},{id:'blue',name:'Gökyüzü',color:'#87b8df'}];
 const time=(n:number)=>`${Math.floor(n/60)}:${String(n%60).padStart(2,'0')}`;
 export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordStats:{count:number,categories:string[]},apiUrl?:string,appBase?:string}) {
-  const [theme,setTheme]=useState('lagoon'),[sound,setSound]=useState(false),[rules,setRules]=useState(false),[themeMenu,setThemeMenu]=useState(false);
+  const [theme,setTheme]=useState('blue'),[sound,setSound]=useState(false),[rules,setRules]=useState(false),[themeMenu,setThemeMenu]=useState(false);
   const [name,setName]=useState(''),[code,setCode]=useState(''),[opts,setOpts]=useState(initial),[room,setRoom]=useState<Room|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState(''),[connected,setConnected]=useState(true),[now,setNow]=useState(Date.now()),[showWord,setShowWord]=useState(false),[voteTarget,setVoteTarget]=useState('');
   const roomRef=useRef<Room|null>(null),requestSeq=useRef(0),acceptedSeq=useRef(0),soundRef=useRef(false),audioContext=useRef<AudioContext|null>(null);
   const demoRef=useRef<DemoController|null>(null),clock=useRef({real:Date.now(),server:Date.now(),rate:1});
@@ -52,7 +52,7 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
   async function act(action:string,payload:Record<string,any>={}) {setBusy(true);setError('');try{const r=await call(action,payload);if(!r.demo)setCode(r.code);chirp();return true;}catch(e){setError((e as Error).message);return false;}finally{setBusy(false);}}
   useEffect(()=>{
     avatarRef.current=readAvatar(localStorage);setAvatar(avatarRef.current);
-    const savedName=localStorage.getItem('kosto.name')||'';setTheme(localStorage.getItem('kosto.theme')||'lagoon');setName(savedName);
+    const savedName=localStorage.getItem('kosto.name')||'';setTheme(localStorage.getItem('kosto.theme')||'blue');setName(savedName);
     let sessions={};try{sessions=JSON.parse(localStorage.getItem('kosto.sessions')||'{}');}catch{}
     const query=new URLSearchParams(location.search),entry=invitationEntry(location.search,sessions);setCode(entry.code);
     if(query.has('demo'))startDemo(query.get('demo')||'random',{players:Number(query.get('oyuncu'))||6,circuits:Number(query.get('tur'))||1});

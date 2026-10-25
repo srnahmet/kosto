@@ -24,7 +24,7 @@ Vampir Köylü'nün masa kurma ve telefondan katılma alışkanlığını, ferah
 - Konuşma sayısı 1–5; kişi başı konuşma 30–600 sn. Her söz en az 15 sn olduğundan alt sınır konuşma sayısına göre artar. Bölünmede saniyenin altı aşağı yuvarlanır.
 - Oylama varsayılan 30 sn, ayar 15–90 sn. Herkes oy verirse en az 3 sn sonra çözülebilir. Eşitlik konuşması varsayılan 15 sn, ayar 10–30 sn. Sonuç duyurusu 7 sn.
 - **2 Kösto** seçilebilir; başlamak için en az **6 gerçek oyuncu** gerekir. Köstoların birbirini tanıması ve kendi rolünü bilme ayrı ayarlardır; ikisi de varsayılan kapalıdır. Birbirini tanıma açılırsa kendi rolü de dolaylı olarak anlaşılır.
-- Kelime kategorisi ve zorluk filtresi vardır. Varsayılan **Karışık**, altı ana grubun tamamını kapsar. Tek veya birden fazla grup seçilebilir: Yeme İçme; Doğa ve Canlılar; Günlük Yaşam; Sanat, Oyun ve Spor; Okul, İş ve Teknoloji; Gezi ve Ulaşım. Özgün 31 alt kategori sunucudaki veri içinde korunur; seçim ekranı altı grup gösterir. Dört cihaz-yerel tema: Turkuaz Bahçe, Şeftali Sabahı, Lavanta Düşü, Gökyüzü. Efekt sesleri varsayılan kapalıdır.
+- Kelime kategorisi ve zorluk filtresi vardır. Varsayılan **Karışık**, altı ana grubun tamamını kapsar. Tek veya birden fazla grup seçilebilir: Yeme İçme; Doğa ve Canlılar; Günlük Yaşam; Sanat, Oyun ve Spor; Okul, İş ve Teknoloji; Gezi ve Ulaşım. Özgün 31 alt kategori sunucudaki veri içinde korunur; seçim ekranı altı grup gösterir. Dört cihaz-yerel tema: Turkuaz Bahçe, Şeftali Sabahı, Lavanta Düşü, Gökyüzü. Varsayılan tema **Gökyüzü**; daha önce kaydedilmiş tema tercihi korunur. Efekt sesleri varsayılan kapalıdır.
 
 ## Rövanş ve masa ayarları
 
