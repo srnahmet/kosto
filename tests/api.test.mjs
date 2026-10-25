@@ -20,7 +20,7 @@ test('HTTP: Pages preflight, allowed origin and cross-origin membership', {skip:
   await api('leave',{code:c.room.code},c.token);
 });
 test('HTTP: independent clients complete real three-player game', {skip:!base,timeout:90000},async()=>{
-  const created=await api('create',{name:'Ada',settings:{}});assert.equal(created.status,200);const code=created.room.code;
+  const created=await api('create',{name:'Ada',settings:{}});assert.equal(created.status,200);assert.equal(created.room.settings.circuits,1);const code=created.room.code;
   const [b,c]=await Promise.all(['Bora','Cem'].map(name=>api('join',{code,name})));assert.equal(b.status,200);assert.equal(c.status,200);
   const clients=[created,b,c],tokens=clients.map(c=>c.token);
   const forbidden=await api('get',{code},'fake');assert.equal(forbidden.status,403);
@@ -40,7 +40,7 @@ test('HTTP: independent clients complete real three-player game', {skip:!base,ti
       const stale=await api('finishSpeech',{code,epoch:beforeEpoch},tokens[i]);assert.equal(stale.status,400);
     }else {await sleep(Math.max(100,Math.min(1500,state.room.deadline-state.room.serverNow+50)));const snapshots=await Promise.all(tokens.map(t=>api('get',{code},t)));state=snapshots[0];}
   }
-  assert.equal(turnCount,6);assert.equal(state.room.phase,'voting');
+  assert.equal(turnCount,3);assert.equal(state.room.phase,'voting');
   const epoch=state.room.epoch,ids=clients.map(c=>c.room.selfId);
   const self=await api('vote',{code,epoch,target:ids[0]},tokens[0]);assert.equal(self.status,400);
   const votes=await Promise.all(tokens.map((t,i)=>api('vote',{code,epoch,target:i===1?ids[0]:ids[1]},t)));assert.ok(votes.every(v=>v.status===200));

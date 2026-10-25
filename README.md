@@ -9,7 +9,7 @@ Vampir Köylü'nün masa kurma ve telefondan katılma alışkanlığını, ferah
 1. İsim yazıp masa kur. İstersen yalnızca masayı yönet; bu durumda oyuncu sayısına dahil olmazsın ve kelime/oy almazsın.
 2. Arkadaşların bağlantı veya altı karakterli kod ile kendi cihazlarından katılsın. Hesap gerekmez. Herkes hazır olunca masa sahibi başlatsın.
 3. Bahçıvanlar aynı kelimeyi, bir veya iki Kösto yakın ama farklı bir kelimeyi görür. Varsayılan herkes kendi rolünü bile bilmez. Çiftin yönü ve roller sunucuda bağımsız, kriptografik rastgelelikle seçilir.
-4. Her oylama öncesi herkes sırasıyla **en az iki tam konuşma turu** yapar. Serbest konuşma aşaması yoktur. Oyuncu kendi sözünü erken bitirebilir. Elenenler izler.
+4. Her oylama öncesi herkes sırasıyla **varsayılan bir tam konuşma turu** yapar. Bir tur, herkesin bir kez ipucu vermesidir; ardından oylama başlar. İstersen 2–5 tur seçerek oylamadan önce daha çok ipucu için yeniden söz alabilirsiniz. Serbest konuşma aşaması yoktur. Oyuncu kendi sözünü erken bitirebilir. Elenenler izler.
 5. Yaşayanlar kendileri dışında bir oyuncuya gizli oy verir. Kesinleşmiş oy değişmez. En çok oyu alan elenir; rolü oyun sonuna kadar açıklanmaz. Süresi dolan oylamada eksik oylar çekimserdir.
 6. İlk eşitlikte yalnızca eşitlikteki oyuncular birer kısa konuşma yapar. Yaşayan herkes yalnızca bu adaylara yeniden oy verir. **Tekrar eşitlik olursa kimse elenmez ve yeni ana tur başlar.** Hiç oy yoksa da yeni ana tura geçilir.
 7. Tüm Köstolar elenirse Bahçıvanlar kazanır. Yaşayan Kösto sayısı Bahçıvan sayısına ulaştığında Köstolar kazanır: tek Kösto ile **1–1**, iki Kösto hayattaysa **2–2**. Köstolardan biri elenirse kalan Kösto **1–1** eşiğine kadar devam eder.
@@ -17,11 +17,11 @@ Vampir Köylü'nün masa kurma ve telefondan katılma alışkanlığını, ferah
 
 ## Süreler ve seçenekler
 
-- Varsayılan **2 konuşma turu**, kişi başı **60 sn toplam konuşma** → her söz **30 sn**.
+- Varsayılan **1 konuşma turu**, kişi başı **60 sn toplam konuşma** → tek söz **60 sn**. Daha fazla tur seçilirse bu toplam süre turlara bölünür; örneğin 2 turda her söz 30 sn olur.
 - **Her söz öncesi 5 sn geçiş** vardır; ilk konuşmaya hazırlanma da buna dahildir.
 - Ana tur konuşma ve geçiş bütçesi: `N × kişi başı konuşma + N × konuşma turu × 5 sn`.
-- Örnek: 6 kişi, iki tur → `6 × 60 + 6 × 2 × 5 = 420 sn` (7 dakika). Kelimeye bakma (8 sn), oylama, eşitlik konuşması ve sonuç duyurusu ayrıca eklenir. Bu süre bütün oyunun üst sınırı değildir; her ana tur kalan oyuncularla yeniden hesaplanır.
-- Konuşma sayısı 2–5; kişi başı konuşma 30–600 sn. Her söz en az 15 sn olduğundan alt sınır konuşma sayısına göre artar. Bölünmede saniyenin altı aşağı yuvarlanır.
+- Örnek: 6 kişi, varsayılan bir tur → `6 × 60 + 6 × 1 × 5 = 390 sn` (6 dakika 30 saniye). Kelimeye bakma (8 sn), oylama, eşitlik konuşması ve sonuç duyurusu ayrıca eklenir. Bu süre bütün oyunun üst sınırı değildir; her ana tur kalan oyuncularla yeniden hesaplanır.
+- Konuşma sayısı 1–5; kişi başı konuşma 30–600 sn. Her söz en az 15 sn olduğundan alt sınır konuşma sayısına göre artar. Bölünmede saniyenin altı aşağı yuvarlanır.
 - Oylama varsayılan 30 sn, ayar 15–90 sn. Herkes oy verirse en az 3 sn sonra çözülebilir. Eşitlik konuşması varsayılan 15 sn, ayar 10–30 sn. Sonuç duyurusu 7 sn.
 - **2 Kösto** seçilebilir; başlamak için en az **6 gerçek oyuncu** gerekir. Köstoların birbirini tanıması ve kendi rolünü bilme ayrı ayarlardır; ikisi de varsayılan kapalıdır. Birbirini tanıma açılırsa kendi rolü de dolaylı olarak anlaşılır.
 - Kelime kategorisi ve zorluk filtresi vardır. Dört cihaz-yerel tema: Turkuaz Bahçe, Şeftali Sabahı, Lavanta Düşü, Gökyüzü. Efekt sesleri varsayılan kapalıdır.
@@ -82,6 +82,6 @@ HTTP testleri için çalışan yerel sunucu üzerinde `TEST_BASE_URL=http://127.
 
 ## Doğrulama
 
-29 oyun/veri/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun iki tam konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Ayrıca TypeScript kontrolü, Worker/Pages üretim derlemeleri ve yerel tarayıcıda masa kurma/hazır olma/tema değiştirme kontrol edildi. Pages paketinin `/kosto/` yolları, fontları ve sunucu verilerini içermemesi ayrıca denetlenir.
+30 oyun/veri/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Ayrıca TypeScript kontrolü, Worker/Pages üretim derlemeleri ve yerel tarayıcıda masa kurma/hazır olma/tema değiştirme kontrol edildi. Pages paketinin `/kosto/` yolları, fontları ve sunucu verilerini içermemesi ayrıca denetlenir.
 
 Kelime havuzunun seçim ölçütleri, kategori dağılımı ve editoryal sınırları: [data/WORDS.md](data/WORDS.md).
