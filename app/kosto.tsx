@@ -57,7 +57,7 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
   useEffect(()=>{
     if(!room?.code)return;let stopped=false,t:ReturnType<typeof setTimeout>;
     const interval=room.demo?250:1500;
-    async function poll(){try{await call('get',{},true);lastPollNotice.current='';}catch(e){setConnected(false);const message=(e as Error).message;if(message.includes('yeniden katıl')&&lastPollNotice.current!==message){lastPollNotice.current=message;setError(message);}}if(!stopped)t=setTimeout(poll,interval);}
+    async function poll(){if(stopped||!roomRef.current)return;try{await call('get',{},true);lastPollNotice.current='';}catch(e){if(!stopped){setConnected(false);const message=(e as Error).message;if(message.includes('yeniden katıl')&&lastPollNotice.current!==message){lastPollNotice.current=message;setError(message);}}}if(!stopped&&roomRef.current)t=setTimeout(poll,interval);}
     t=setTimeout(poll,interval);return()=>{stopped=true;clearTimeout(t);};
   },[room?.code,!!room?.demo]);
   useEffect(()=>{setVoteTarget('');chirp();},[room?.epoch]);
@@ -67,7 +67,7 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
   const rememberName=()=>localStorage.setItem('kosto.name',name.trim());
   const create=()=>{if(opts.hostPlays&&(name.trim().length<2||name.trim().length>20)){setError('Bahçedeki adın 2–20 karakter olsun. Küçük bir isim ekleyip yeniden deneyelim.');return;}rememberName();void act('create',{name,settings:opts});};
   const join=()=>{if(name.trim().length<2||name.trim().length>20){setError('Önce sana ne diyeceğimizi yazalım. Oyuncu adın 2–20 karakter olmalı.');return;}if(!/^[A-Z2-9]{6}$/.test(code.trim().toUpperCase())){setError('6 karakterlik masa kodunu kontrol et. Arkadaşının paylaştığı kodu eksiksiz yazıp yeniden deneyelim.');return;}rememberName();void act('join',{name,code:code.trim().toUpperCase()});};
-  const home=()=>{demoRef.current=null;roomRef.current=null;setRoom(null);setShowWord(false);setError('');window.history.replaceState(null,'',appBase);};
+  const home=()=>{acceptedSeq.current=++requestSeq.current;demoRef.current=null;roomRef.current=null;setRoom(null);setShowWord(false);setError('');window.history.replaceState(null,'',appBase);};
   const copy=async(value:string)=>{try{await navigator.clipboard.writeText(value);setToast('Panoya kopyalandı!');}catch{setToast(`Masa kodu: ${room?.code}`);}};
   const seconds=room?.deadline?Math.max(0,Math.ceil((room.deadline-now)/1000)):0;
   const members=room?.members.filter(p=>p.playing)||[],alive=members.filter(p=>p.alive),host=room?.hostId===room?.selfId,speaker=room?.members.find(p=>p.id===room.speaker?.id),mine=room?.speaker?.id===room?.selfId;
