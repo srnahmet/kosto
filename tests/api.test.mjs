@@ -28,7 +28,7 @@ test('HTTP: independent clients complete real three-player game', {skip:!base,ti
   const normal=await api('get',{code,demo:true},created.token);assert.equal(normal.room.demo,undefined);
   const forbidden=await api('get',{code},'fake');assert.equal(forbidden.status,403);
   const nonhost=await api('start',{code},b.token);assert.equal(nonhost.status,400);
-  await Promise.all(tokens.map(token=>api('ready',{code},token)));
+  await Promise.all(tokens.map(token=>api('ready',{code,epoch:created.room.epoch},token)));
   let state=await api('start',{code},created.token);assert.equal(state.room.phase,'reveal');
   const edited=await api('profile',{code,avatar:{...avatar,fur:'slate'},target:created.room.selfId,epoch:-1},b.token);
   assert.equal(edited.status,200);assert.equal(edited.room.deadline,state.room.deadline);assert.deepEqual(edited.room.members[0].avatar,avatar);assert.equal(edited.room.members.find(p=>p.id===b.room.selfId).avatar.fur,'slate');
@@ -53,12 +53,24 @@ test('HTTP: independent clients complete real three-player game', {skip:!base,ti
   await sleep(3200);state=await api('get',{code},tokens[0]);assert.equal(state.room.phase,'ended');assert.ok(['kosto','bahcivan'].includes(state.room.winner));assert.ok(state.room.pair);assert.ok(state.room.members.every(p=>p.role&&p.word));
   const denied=await api('rematch',{code},tokens[1]);assert.equal(denied.status,400);
   state=await api('rematch',{code},tokens[0]);assert.equal(state.room.phase,'lobby');assert.equal(state.room.pair,null);assert.ok(state.room.members.every(p=>!p.ready&&!('role'in p)));
+  const oldEpoch=state.room.epoch;
+  await Promise.all(tokens.map(token=>api('ready',{code,epoch:oldEpoch},token)));
+  const deniedSettings=await api('settings',{code,epoch:oldEpoch,settings:{categories:['food']}},tokens[1]);assert.equal(deniedSettings.status,400);
+  const updated=await api('settings',{code,epoch:oldEpoch,settings:{...state.room.settings,categories:['food','nature'],circuits:2,secondsPerPlayer:90,voice:true}},tokens[0]);
+  assert.equal(updated.status,200);assert.deepEqual(updated.room.settings.categories,['food','nature']);assert.ok(updated.room.members.every(p=>!p.ready));assert.equal(updated.room.code,code);assert.equal(updated.room.gameNo,state.room.gameNo);
+  const staleReady=await api('ready',{code,epoch:oldEpoch},tokens[1]);assert.equal(staleReady.status,400);
+  const peer=await api('get',{code},tokens[1]);assert.equal(peer.room.settings.circuits,2);assert.equal(peer.room.settings.secondsPerPlayer,90);assert.equal(peer.room.settings.voice,true);assert.deepEqual(peer.room.settings.categories,['food','nature']);
+  const premature=await api('start',{code},tokens[0]);assert.equal(premature.status,400);
+  await Promise.all(tokens.map(token=>api('ready',{code,epoch:updated.room.epoch},token)));
+  const restarted=await api('start',{code},tokens[0]);assert.equal(restarted.status,200);assert.equal(restarted.room.phase,'reveal');assert.equal(restarted.room.gameNo,state.room.gameNo+1);
+  const activeSettings=await api('settings',{code,epoch:restarted.room.epoch,settings:{}},tokens[0]);assert.equal(activeSettings.status,400);
+
 });
 test('HTTP: spectator host, simultaneous joins, two moles and private signaling', {skip:!base,timeout:15000},async()=>{
   const host=await api('create',{settings:{hostPlays:false,moles:2,revealRole:true,knowMoles:true,voice:true}});assert.equal(host.status,200);assert.equal(host.room.me,null);const code=host.room.code;
   const ps=await Promise.all(Array.from({length:6},(_,i)=>api('join',{code,name:'Testçi '+i})));assert.ok(ps.every(p=>p.status===200));
   const duplicate=await api('join',{code,name:'Testçi 0'});assert.equal(duplicate.status,400);
-  await Promise.all(ps.map(p=>api('ready',{code},p.token)));
+  await Promise.all(ps.map(p=>api('ready',{code,epoch:host.room.epoch},p.token)));
   const started=await api('start',{code},host.token);assert.equal(started.status,200);assert.equal(started.room.members.filter(p=>p.playing).length,6);assert.equal(started.room.me,null);
   const views=await Promise.all(ps.map(p=>api('get',{code},p.token))),ms=views.filter(v=>v.room.me.role==='kosto');assert.equal(ms.length,2);assert.ok(ms.every(v=>v.room.me.teammates.length===1));assert.equal(ms[0].room.me.word,ms[1].room.me.word);
   await Promise.all(ps.slice(0,2).map(p=>api('voice',{code,enabled:true},p.token)));

@@ -1,11 +1,12 @@
 import { env } from 'cloudflare:workers';
 import pairs from '../data/words.json';
 import { GameError, createRoom, member, settings, tick, command, view, players } from './game.mjs';
+import { CATEGORY_GROUPS } from './categories.mjs';
 const random = () => crypto.getRandomValues(new Uint32Array(1))[0] / 4294967296;
 const alphabet = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const code = () => Array.from(crypto.getRandomValues(new Uint8Array(6)), v => alphabet[v % alphabet.length]).join('');
 const hash = async (token: string) => Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token))),b=>b.toString(16).padStart(2,'0')).join('');
-export const wordStats = { count:pairs.length, categories:[...new Set(pairs.map(p=>p.category))].sort((a,b)=>a.localeCompare(b,'tr')) };
+export const wordStats = { count:pairs.length, categories:CATEGORY_GROUPS.map(g=>g.name) };
 export async function operate(body: Record<string, any>, token: string) {
   if(!env.DB) throw new GameError('Masa servisi şu anda kullanılamıyor.',503);
   const db=env.DB.withSession('first-primary');

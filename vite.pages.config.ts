@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
+import { CATEGORY_GROUPS } from './lib/categories.mjs';
 
 const project=fileURLToPath(new URL('.',import.meta.url));
 export default defineConfig({
@@ -17,7 +18,7 @@ export default defineConfig({
       if(id!=='\0virtual:kosto-word-stats')return;
       // Categories/count only. Never bundle the server's word pairs or game state.
       const words=JSON.parse(readFileSync(resolve(project,'data/words.json'),'utf8')) as {category:string}[];
-      return `export default ${JSON.stringify({count:words.length,categories:[...new Set(words.map(w=>w.category))].sort((a,b)=>a.localeCompare(b,'tr'))})};`;
+      return `export default ${JSON.stringify({count:words.length,categories:CATEGORY_GROUPS.map(g=>g.name)})};`;
     },
   }],
   build:{outDir:resolve(project,'dist-pages'),emptyOutDir:true},

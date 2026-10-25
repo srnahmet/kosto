@@ -24,7 +24,13 @@ Vampir Köylü'nün masa kurma ve telefondan katılma alışkanlığını, ferah
 - Konuşma sayısı 1–5; kişi başı konuşma 30–600 sn. Her söz en az 15 sn olduğundan alt sınır konuşma sayısına göre artar. Bölünmede saniyenin altı aşağı yuvarlanır.
 - Oylama varsayılan 30 sn, ayar 15–90 sn. Herkes oy verirse en az 3 sn sonra çözülebilir. Eşitlik konuşması varsayılan 15 sn, ayar 10–30 sn. Sonuç duyurusu 7 sn.
 - **2 Kösto** seçilebilir; başlamak için en az **6 gerçek oyuncu** gerekir. Köstoların birbirini tanıması ve kendi rolünü bilme ayrı ayarlardır; ikisi de varsayılan kapalıdır. Birbirini tanıma açılırsa kendi rolü de dolaylı olarak anlaşılır.
-- Kelime kategorisi ve zorluk filtresi vardır. Dört cihaz-yerel tema: Turkuaz Bahçe, Şeftali Sabahı, Lavanta Düşü, Gökyüzü. Efekt sesleri varsayılan kapalıdır.
+- Kelime kategorisi ve zorluk filtresi vardır. Varsayılan **Karışık**, altı ana grubun tamamını kapsar. Tek veya birden fazla grup seçilebilir: Yeme İçme; Doğa ve Canlılar; Günlük Yaşam; Sanat, Oyun ve Spor; Okul, İş ve Teknoloji; Gezi ve Ulaşım. Özgün 31 alt kategori sunucudaki veri içinde korunur; seçim ekranı altı grup gösterir. Dört cihaz-yerel tema: Turkuaz Bahçe, Şeftali Sabahı, Lavanta Düşü, Gökyüzü. Efekt sesleri varsayılan kapalıdır.
+
+## Rövanş ve masa ayarları
+
+Oyun sonunda **Rövanşı hazırla** aynı kodla bekleme odasını açar ve masa sahibine ayar ekranını gösterir. Masa sahibi ilk bekleme odasında da **Masa ayarları** üzerinden kategori, tur/süre, Kösto sayısı, rol bilgisi, mikrofon, zorluk ve oynama/izleme tercihini değiştirebilir. Değişiklik bütün üyelere yansır; hazır durumları ve ses katılımları sıfırlanır. Aynı ayarları tekrar kaydetmek hazır durumlarını bozmaz.
+
+Aktif oyunun ayarları değiştirilemez. Masa sahibi olmayanların istekleri reddedilir; eski ayar ekranından gönderilen değişiklik ve eski hazır hamleleri aşama sürümüyle reddedilir. Yeni oyun herkes yeniden hazır olunca başlar. Önceki sürümde tek alt kategori seçilmiş masalar bu filtreyi korur; ayarlar yeniden kaydedilirse yeni ana grup seçimi uygulanır.
 
 ## Karakterini özelleştir
 
@@ -104,6 +110,6 @@ GISM 🤝 SPTLS ortak yapımı yazısı, her ekranda demo düğmesinin yanında 
 
 ## Doğrulama
 
-53 oyun/veri/demo/QR/karakter/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Karakter kontrolleri yerel kaydı, bozuk/engelli depolamayı, eski masaları, yalnızca kendi görünümünü değiştirme yetkisini ve rövanşta korumayı kapsar; bağımsız HTTP istemcileri de karakter paylaşımını ve yetkisiz değişikliklerin reddedilmesini doğrular. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
+64 oyun/veri/demo/QR/karakter/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Karakter kontrolleri yerel kaydı, bozuk/engelli depolamayı, eski masaları, yalnızca kendi görünümünü değiştirme yetkisini ve rövanşta korumayı kapsar; bağımsız HTTP istemcileri de karakter paylaşımını ve yetkisiz değişikliklerin reddedilmesini doğrular. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
 
 Kelime havuzunun seçim ölçütleri, kategori dağılımı ve editoryal sınırları: [data/WORDS.md](data/WORDS.md).
