@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { X, Check, Sprout } from 'lucide-react';
 import { Mole } from './art';
 
-export default function Notice({message,kind,onClose}:{message:string,kind:'error'|'info',onClose:()=>void}) {
+export default function Notice({message,onClose}:{message:string,onClose:()=>void}) {
   const panel=useRef<HTMLElement>(null),button=useRef<HTMLButtonElement>(null),close=useRef(onClose);close.current=onClose;
   useEffect(()=>{
     const previous=document.activeElement as HTMLElement|null,overflow=document.body.style.overflow;
@@ -20,12 +20,12 @@ export default function Notice({message,kind,onClose}:{message:string,kind:'erro
     };
     document.addEventListener('keydown',onKey,true);
     return()=>{document.body.style.overflow=overflow;document.removeEventListener('keydown',onKey,true);if(previous?.isConnected)previous.focus();};
-  },[message,kind]);
-  return <div className="notice-backdrop" onClick={e=>{if(e.target===e.currentTarget)onClose();}}><section ref={panel} className={`notice-card ${kind}`} role={kind==='error'?'alertdialog':'dialog'} aria-modal="true" aria-labelledby="notice-title" aria-describedby="notice-message">
+  },[message]);
+  return <div className="notice-backdrop" onClick={e=>{if(e.target===e.currentTarget)onClose();}}><section ref={panel} className="notice-card error" role="alertdialog" aria-modal="true" aria-labelledby="notice-title" aria-describedby="notice-message">
     <button className="notice-close icon-button" onClick={onClose} aria-label="Bildirimi kapat"><X size={19}/></button>
-    <div className="notice-portrait"><Mole kind={kind==='error'?'pink':'garden'}/><span>{kind==='error'?'?':<Check size={16}/>}</span></div>
+    <div className="notice-portrait"><Mole kind="pink"/><span>?</span></div>
     <div className="eyebrow"><Sprout size={12}/> BAHÇEDEN KÜÇÜK BİR NOT</div>
-    <h2 id="notice-title">{kind==='error'?'Minik bir pürüz var.':'Bahçeden haber var.'}</h2>
+    <h2 id="notice-title">Minik bir pürüz var.</h2>
     <p id="notice-message">{message}</p>
     <button ref={button} className="button primary full" onClick={onClose}>Tamamdır <Check size={17}/></button>
   </section></div>;

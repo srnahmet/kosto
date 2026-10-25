@@ -4,13 +4,14 @@ import { ArrowRight, ArrowLeft, Check, CheckCheck, ChevronDown, Copy, DoorOpen, 
 import { Garden, Mole } from './art';
 import type { Avatar, Options, Room } from '@/lib/types';
 import Voice from './voice';
-import { invitationUrl } from '@/lib/client-addresses.mjs';
+import { invitationUrl, invitationEntry } from '@/lib/client-addresses.mjs';
 import { DemoController } from '@/lib/demo.mjs';
 import DemoControls from './demo-controls';
 import './demo.css';
 import './feedback.css';
 import Notice from './notice';
 import InviteQr from './invite-qr';
+import InviteName from './invite-name';
 import CharacterEditor, { Character } from './character';
 import { DEFAULT_AVATAR, readAvatar, writeAvatar, sameAvatar } from '@/lib/avatar.mjs';
 
@@ -22,10 +23,11 @@ function Toggle({checked,onChange,label,detail}:{checked:boolean,onChange:(v:boo
 }
 export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordStats:{count:number,categories:string[]},apiUrl?:string,appBase?:string}) {
   const [theme,setTheme]=useState('lagoon'),[sound,setSound]=useState(false),[rules,setRules]=useState(false),[themeMenu,setThemeMenu]=useState(false);
-  const [name,setName]=useState(''),[code,setCode]=useState(''),[opts,setOpts]=useState(initial),[room,setRoom]=useState<Room|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState(''),[toast,setToast]=useState(''),[connected,setConnected]=useState(true),[now,setNow]=useState(Date.now()),[showWord,setShowWord]=useState(false),[voteTarget,setVoteTarget]=useState('');
+  const [name,setName]=useState(''),[code,setCode]=useState(''),[opts,setOpts]=useState(initial),[room,setRoom]=useState<Room|null>(null),[busy,setBusy]=useState(false),[error,setError]=useState(''),[connected,setConnected]=useState(true),[now,setNow]=useState(Date.now()),[showWord,setShowWord]=useState(false),[voteTarget,setVoteTarget]=useState('');
   const roomRef=useRef<Room|null>(null),requestSeq=useRef(0),acceptedSeq=useRef(0),soundRef=useRef(false),audioContext=useRef<AudioContext|null>(null);
   const demoRef=useRef<DemoController|null>(null),clock=useRef({real:Date.now(),server:Date.now(),rate:1});
-  const lastPollNotice=useRef('');
+  const lastPollNotice=useRef(''),joining=useRef(false);
+  const [inviteCode,setInviteCode]=useState(''),[copied,setCopied]=useState('');
   const [avatar,setAvatar]=useState<Avatar>({...DEFAULT_AVATAR}),[characterMenu,setCharacterMenu]=useState(false);
   const avatarRef=useRef<Avatar>({...DEFAULT_AVATAR});
   function chirp(){if(!soundRef.current)return;try{const c=audioContext.current??=new AudioContext();void c.resume();const o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(520,c.currentTime);o.frequency.exponentialRampToValueAtTime(780,c.currentTime+.1);g.gain.setValueAtTime(.025,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.16);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.17);}catch{}}
@@ -40,7 +42,7 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
   async function call(action:string,payload:Record<string,any>={},quiet=false):Promise<Room> {
     const c=payload.code||roomRef.current?.code||'',seq=++requestSeq.current;
     if(demoRef.current){const r=demoRef.current.dispatch(action,{epoch:roomRef.current?.epoch,...payload}) as Room;accept(r,seq);return r;}
-    const saved=JSON.parse(localStorage.getItem('kosto.sessions')||'{}');
+    let saved:Record<string,string>={};try{saved=JSON.parse(localStorage.getItem('kosto.sessions')||'{}')||{};}catch{}
     const response=await fetch(apiUrl,{method:'POST',credentials:'omit',headers:{'Content-Type':'application/json',...(saved[c]?{Authorization:`Bearer ${saved[c]}`}:{})},body:JSON.stringify({action,code:c,epoch:roomRef.current?.epoch,...payload}),signal:AbortSignal.timeout(15000)});
     const result=await response.json() as {room:Room,token?:string,error?:string};if(!response.ok)throw new Error(result.error||'Bir şeyler ters gitti.');
     if(result.token){saved[result.room.code]=result.token;localStorage.setItem('kosto.sessions',JSON.stringify(saved));}
@@ -51,14 +53,20 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
   async function act(action:string,payload:Record<string,any>={}) {setBusy(true);setError('');try{const r=await call(action,payload);if(!r.demo)setCode(r.code);chirp();return true;}catch(e){setError((e as Error).message);return false;}finally{setBusy(false);}}
   useEffect(()=>{
     avatarRef.current=readAvatar(localStorage);setAvatar(avatarRef.current);
-    setTheme(localStorage.getItem('kosto.theme')||'lagoon');setName(localStorage.getItem('kosto.name')||'');
-    const query=new URLSearchParams(location.search),c=query.get('masa')||'';setCode(c);
+    const savedName=localStorage.getItem('kosto.name')||'';setTheme(localStorage.getItem('kosto.theme')||'lagoon');setName(savedName);
+    let sessions={};try{sessions=JSON.parse(localStorage.getItem('kosto.sessions')||'{}');}catch{}
+    const query=new URLSearchParams(location.search),entry=invitationEntry(location.search,sessions);setCode(entry.code);
     if(query.has('demo'))startDemo(query.get('demo')||'random',{players:Number(query.get('oyuncu'))||6,circuits:Number(query.get('tur'))||1});
-    else if(c&&JSON.parse(localStorage.getItem('kosto.sessions')||'{}')[c])void call('get',{code:c}).catch(e=>setError(e.message));
+    else if(entry.kind==='name')setInviteCode(entry.code);
+    else if(entry.kind==='invalid')setError('Davet bağlantısındaki 6 karakterlik masa kodu geçersiz. Arkadaşından bağlantıyı yeniden paylaşmasını iste.');
+    else if(entry.kind==='resume'){
+      setBusy(true);void call('join',{code:entry.code,name:savedName,avatar:avatarRef.current}).catch(e=>{setInviteCode(entry.code);setError(e.message);}).finally(()=>setBusy(false));
+    }
     const t=setInterval(()=>setNow(clock.current.server+(Date.now()-clock.current.real)*clock.current.rate),250);return()=>clearInterval(t);
   },[]);
   useEffect(()=>{document.documentElement.dataset.theme=theme;localStorage.setItem('kosto.theme',theme);},[theme]);
   useEffect(()=>{soundRef.current=sound;},[sound]);
+  useEffect(()=>{if(!copied)return;const t=setTimeout(()=>setCopied(''),2200);return()=>clearTimeout(t);},[copied]);
   useEffect(()=>{
     if(!room?.code)return;let stopped=false,t:ReturnType<typeof setTimeout>;
     const interval=room.demo?250:1500;
@@ -79,9 +87,14 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
   const setOption=<K extends keyof Options>(k:K,v:Options[K])=>setOpts(o=>({...o,[k]:v}));
   const rememberName=()=>localStorage.setItem('kosto.name',name.trim());
   const create=()=>{if(opts.hostPlays&&(name.trim().length<2||name.trim().length>20)){setError('Bahçedeki adın 2–20 karakter olsun. Küçük bir isim ekleyip yeniden deneyelim.');return;}rememberName();void act('create',{name,settings:opts,avatar:avatarRef.current});};
-  const join=()=>{if(name.trim().length<2||name.trim().length>20){setError('Önce sana ne diyeceğimizi yazalım. Oyuncu adın 2–20 karakter olmalı.');return;}if(!/^[A-Z2-9]{6}$/.test(code.trim().toUpperCase())){setError('6 karakterlik masa kodunu kontrol et. Arkadaşının paylaştığı kodu eksiksiz yazıp yeniden deneyelim.');return;}rememberName();void act('join',{name,code:code.trim().toUpperCase(),avatar:avatarRef.current});};
-  const home=()=>{acceptedSeq.current=++requestSeq.current;demoRef.current=null;roomRef.current=null;setRoom(null);setShowWord(false);setCharacterMenu(false);setError('');window.history.replaceState(null,'',appBase);};
-  const copy=async(value:string)=>{try{await navigator.clipboard.writeText(value);setToast('Panoya kopyalandı!');}catch{setToast(`Masa kodu: ${room?.code}`);}};
+  const join=async(targetCode=code)=>{
+    if(joining.current||busy)return false;
+    if(name.trim().length<2||name.trim().length>20){setError('Önce sana ne diyeceğimizi yazalım. Oyuncu adın 2–20 karakter olmalı.');return false;}
+    if(!/^[A-Z2-9]{6}$/.test(targetCode.trim().toUpperCase())){setError('6 karakterlik masa kodunu kontrol et. Arkadaşının paylaştığı kodu eksiksiz yazıp yeniden deneyelim.');return false;}
+    joining.current=true;try{rememberName();return await act('join',{name:name.trim(),code:targetCode.trim().toUpperCase(),avatar:avatarRef.current});}finally{joining.current=false;}
+  };
+  const home=()=>{acceptedSeq.current=++requestSeq.current;demoRef.current=null;roomRef.current=null;setRoom(null);setShowWord(false);setCharacterMenu(false);setInviteCode('');setError('');window.history.replaceState(null,'',appBase);};
+  const copy=async(value:string)=>{try{await navigator.clipboard.writeText(value);setCopied(value);}catch{setError(`Panoya kopyalanamadı. Bu bağlantıyı veya kodu elle kopyalayabilirsin: ${value}`);}};
   const seconds=room?.deadline?Math.max(0,Math.ceil((room.deadline-now)/1000)):0;
   const members=room?.members.filter(p=>p.playing)||[],alive=members.filter(p=>p.alive),host=room?.hostId===room?.selfId,speaker=room?.members.find(p=>p.id===room.speaker?.id),mine=room?.speaker?.id===room?.selfId;
   const roundDuration=(n:number)=>n*opts.secondsPerPlayer+n*opts.circuits*5;
@@ -110,14 +123,14 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
       </div><aside className="join-column"><div className="panel join-panel"><div className="panel-heading"><span className="heading-icon peach"><DoorOpen size={22}/></span><div><h2>Arkadaşların burada mı?</h2><p>Masa koduyla bahçeye dal.</p></div></div><form noValidate onSubmit={e=>{e.preventDefault();join();}}><label className="field">Oyuncu adın<input value={name} onChange={e=>setName(e.target.value)} placeholder="Sana ne diyelim?" minLength={2} maxLength={20} required/></label><label className="field">Masa kodu<input className="code-input" value={code} onChange={e=>setCode(e.target.value.toUpperCase().replace(/[^A-Z2-9]/g,''))} placeholder="ABC234" minLength={6} maxLength={6} required autoComplete="off"/></label><button className="button secondary full" disabled={busy}>Masaya katıl <ArrowRight size={18}/></button></form></div><div className="little-note"><Mole/><div><strong>Kendinden fazla emin olma.</strong><p>Senin kelimen gayet normal geliyor olabilir. Diğerlerininki de öyle.</p></div></div></aside></section>
       <div className="library-line"><span className="tiny-sprout"><Leaf size={17}/></span><span><strong>{wordStats.count.toLocaleString('tr-TR')} özenle eşleşmiş kelime çifti.</strong> Her oyunda yeni bir küçük fark.</span><span className="library-example">Deniz <span>↔</span> Havuz</span></div>
     </>:<>
-      <div className="room-top"><button className="text-button" onClick={home}><ArrowLeft size={16}/> Ana sayfa</button><span className={`connection ${connected?'':'offline'}`}><span/>{room.demo?'Demo · Bu cihazda':connected?'Bahçeye bağlısın':'Bağlantı yeniden kuruluyor…'}</span><button className="character-entry" onClick={()=>setCharacterMenu(true)}><Character avatar={avatar}/><span>Karakterim</span></button><button className="room-code" onClick={()=>room.demo?setToast('Demo masası bu cihazda çalışır; davet kodu yoktur.'):copy(room.code)}>{room.demo?'DEMO':room.code}{!room.demo&&<Copy size={14}/>}</button></div>
+      <div className="room-top"><button className="text-button" onClick={home}><ArrowLeft size={16}/> Ana sayfa</button><span className={`connection ${connected?'':'offline'}`}><span/>{room.demo?'Demo · Bu cihazda':connected?'Bahçeye bağlısın':'Bağlantı yeniden kuruluyor…'}</span><button className="character-entry" onClick={()=>setCharacterMenu(true)}><Character avatar={avatar}/><span>Karakterim</span></button><button className="room-code" onClick={()=>{if(!room.demo)void copy(room.code);}}>{room.demo?'DEMO':room.code}{!room.demo&&(copied===room.code?<Check size={14}/>:<Copy size={14}/>)}</button></div>
       {room.demo&&<DemoControls room={room} busy={busy} onCall={act} onStart={startDemo}/>}
       {room.phase==='lobby'?<>
         <section className="lobby-intro"><div className="eyebrow"><span/> BAHÇE HAZIR, ARKADAŞLAR BEKLENİYOR</div><h1>Şüpheler birazdan yeşerir.</h1><p>Herkes hazır olduğunda küçük sırlar dağıtılsın.</p></section>
         <div className="room-layout"><section className="panel players-panel"><div className="section-title"><h2>Bahçedekiler</h2><span className="pill"><Users size={14}/>{members.length} / 16</span></div><div className="player-list">{room.members.map((p,i)=><div className={`player-row ${p.ready?'is-ready':''}`} key={p.id}><button className="player-avatar character-self" disabled={p.id!==room.selfId} aria-label={p.id===room.selfId?'Karakterini özelleştir':`${p.name} karakteri`} onClick={()=>setCharacterMenu(true)}><Character avatar={p.id===room.selfId?avatar:p.avatar}/></button><div className="player-name"><strong>{p.name} {p.id===room.selfId&&<small>(sen)</small>}</strong><small>{p.id===room.hostId?'Masa sahibi · ':''}{p.playing?(p.connected?'Bahçede':'Bağlantı bekleniyor'):'Sadece yönetiyor'}</small></div><span className={`ready-badge ${p.ready?'yes':''}`}>{!p.playing?'İzleyici':p.ready?<><Check size={13}/> Hazır</>:'Bekliyor'}</span>{host&&p.id!==room.selfId&&<button className="icon-button" aria-label={`${p.name} oyuncusunu çıkar`} disabled={busy} onClick={()=>act('kick',{target:p.id})}><X size={15}/></button>}</div>)}</div>
           {Array.from({length:Math.max(0,(room.settings.moles===2?6:3)-members.length)},(_,i)=><div key={i} className="empty-seat"><span>+</span> Bir arkadaşın için yer ayırdık.</div>)}
           <div className="lobby-actions">{room.me&&<button className={`button ${room.me.ready?'secondary':'primary'} grow`} disabled={busy} onClick={()=>act('ready')}>{room.me.ready?<><CheckCheck size={19}/> Hazırım · Değiştir</>:<><Check size={19}/> Ben hazırım!</>}</button>}{host&&<button className="button primary grow" disabled={busy||members.length<(room.settings.moles===2?6:3)||!members.every(p=>p.ready&&p.connected)} onClick={()=>act('start')}><Play size={17}/> Oyunu başlat</button>}</div><p className="muted center">{members.filter(p=>p.ready).length} kişi hazır · {room.settings.moles===2?'En az 6':'En az 3'} oyuncu gerekiyor.</p>
-        </section><aside><div className="panel invite-panel"><span className="heading-icon"><Users size={24}/></span><h2>Bahçeye davet et</h2><p>Bu kodu arkadaşlarına gönder.<br/>Herkes kendi cihazından katılsın.</p><button className="invite-code" onClick={()=>copy(room.code)}>{room.code}<Copy size={18}/></button><InviteQr value={invitationUrl(location.origin,appBase,room.code)} onError={setError}/><button className="button secondary full" onClick={()=>copy(invitationUrl(location.origin,appBase,room.code))}><Copy size={16}/> Davet bağlantısını kopyala</button></div><div className="room-rules"><strong>Bu bahçenin kuralları</strong><span>{room.settings.moles} Kösto · {room.settings.circuits} konuşma turu</span><span>Her konuşma {Math.floor(room.settings.secondsPerPlayer/room.settings.circuits)} sn · geçiş 5 sn</span><span>Roller {room.settings.revealRole?'açık':'gizli'} · Köstolar {room.settings.knowMoles?'tanışıyor':'tanışmıyor'}</span><span>Mikrofon {room.settings.voice?'isteğe bağlı açık':'kapalı'}</span></div></aside></div><Garden compact/>
+        </section><aside><div className="panel invite-panel"><span className="heading-icon"><Users size={24}/></span><h2>Bahçeye davet et</h2><p>Bu kodu arkadaşlarına gönder.<br/>Herkes kendi cihazından katılsın.</p><button className="invite-code" onClick={()=>copy(room.code)}>{room.code}{copied===room.code?<Check size={18}/>:<Copy size={18}/>}</button><InviteQr value={invitationUrl(location.origin,appBase,room.code)} onError={setError}/><button className="button secondary full" onClick={()=>copy(invitationUrl(location.origin,appBase,room.code))}>{copied===invitationUrl(location.origin,appBase,room.code)?<Check size={16}/>:<Copy size={16}/>}<span role="status" aria-live="polite">{copied===invitationUrl(location.origin,appBase,room.code)?'Bağlantı kopyalandı':'Davet bağlantısını kopyala'}</span></button></div><div className="room-rules"><strong>Bu bahçenin kuralları</strong><span>{room.settings.moles} Kösto · {room.settings.circuits} konuşma turu</span><span>Her konuşma {Math.floor(room.settings.secondsPerPlayer/room.settings.circuits)} sn · geçiş 5 sn</span><span>Roller {room.settings.revealRole?'açık':'gizli'} · Köstolar {room.settings.knowMoles?'tanışıyor':'tanışmıyor'}</span><span>Mikrofon {room.settings.voice?'isteğe bağlı açık':'kapalı'}</span></div></aside></div><Garden compact/>
       </>:<>
         <div className="game-heading"><div><div className="eyebrow"><span/>{room.phase==='ended'?'SIRLAR ORTAYA ÇIKTI':`${room.round||1}. ANA TUR · ${room.settings.moles} KÖSTO`}</div><h1>{room.phase==='ended'?(room.winner==='kosto'?'Köstolar araya karıştı!':'Bahçıvanlar sırrı çözdü!'):room.phase==='reveal'?'Küçük sırrın hazır.':room.phase==='transition'?'Söz birazdan…':room.phase==='speaking'?(room.speechKind==='tie'?'Son bir küçük ipucu.':mine?'Şimdi söz sende!':`Söz ${speaker?.name||'arkadaşında'}.`):['voting','tieVoting'].includes(room.phase)?'Sence Kösto kim?':'Bahçede bir şey değişti.'}</h1></div>{room.deadline&&<div className={`countdown ${seconds<=5?'urgent':''}`} role="timer" aria-label={`${seconds} saniye kaldı`}><Timer size={20}/>{time(seconds)}</div>}</div>
         <div className="room-layout game-layout"><section>
@@ -141,7 +154,8 @@ export default function Kosto({wordStats,apiUrl='/api/room',appBase='/'}:{wordSt
     </main>
     <footer><span className="footer-brand">Kösto<span>.</span></span><p>Yan yana da, uzaktan da. Aynı bahçede buluşalım.</p><span>Birlikte oynamak güzel. <Sprout size={16}/></span></footer>
     {characterMenu&&room&&<CharacterEditor avatar={avatar} busy={busy} onSave={saveCharacter} onClose={()=>setCharacterMenu(false)}/>}
-    {(error||toast)&&<Notice kind={error?'error':'info'} message={error||toast} onClose={()=>{setError('');setToast('');}}/>}
+    {inviteCode&&!room&&<InviteName code={inviteCode} name={name} avatar={avatar} busy={busy} warningOpen={!!error} onName={setName} onSubmit={async()=>{if(await join(inviteCode))setInviteCode('');}} onClose={home}/>}
+    {error&&<Notice message={error} onClose={()=>setError('')}/>}
     {rules&&<div className="modal-backdrop" onClick={()=>setRules(false)}><section className="rules-modal" role="dialog" aria-modal="true" aria-labelledby="rules-title" onClick={e=>e.stopPropagation()}><button className="modal-close icon-button" aria-label="Kuralları kapat" onClick={()=>setRules(false)} autoFocus><X size={22}/></button><Mole/><div className="eyebrow">KÜÇÜK BİR FARKLA BAŞLAR</div><h2 id="rules-title">Kösto nasıl oynanır?</h2><ol><li><strong>Bahçede buluşun.</strong> En az 3 kişi katılsın. 6 ve üzeri oyuncuda 2 Kösto seçebilirsiniz. Kurucu isterse sadece yönetsin.</li><li><strong>Kelimeni gizlice gör.</strong> Bahçıvanlar aynı, Köstolar yakın ama farklı bir kelime görür. Çiftin iki tarafı da rastgele seçilir. Roller varsayılan gizlidir.</li><li><strong>Sıran gelince ipucu ver.</strong> Kelimeni söylemeden anlat. Her oylamadan önce varsayılan 1 tam konuşma turu vardır: herkes bir kez ipucu verir, sonra oylama başlar. Masa kurulurken 1–5 tur seçilebilir. Her söz geçişi 5 saniyedir.</li><li><strong>Şüphelendiğine oy ver.</strong> En çok oyu alan elenir. Eşitlikte sadece berabere kalanlar kısa konuşur; yaşayan herkes bu isimlere yeniden oy verir. Tekrar eşitlikte kimse elenmez.</li><li><strong>Sonuna kadar devam!</strong> Bütün Köstolar elenirse Bahçıvanlar kazanır. Köstolar Bahçıvan sayısına ulaşırsa Köstolar kazanır: 1’e 1 veya 2’ye 2.</li></ol><p className="rules-note">Her ana turda süre yeniden hesaplanır. Oylama ve eşitlik süreleri konuşma bütçesine eklenir. Elenenlerin rolleri oyun sonunda açılır. Bağlantısı kopan oyuncu 120 saniye içinde dönebilir.</p><button className="button primary full" onClick={()=>setRules(false)}>Anlaştık, bahçeye! <Sprout size={18}/></button></section></div>}
   </>;
 }

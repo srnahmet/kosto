@@ -1,4 +1,6 @@
 .notice-backdrop{position:fixed;inset:0;z-index:120;background:#254b4c66;backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;padding:22px}
+.invite-name-backdrop{position:fixed;inset:0;z-index:110;background:#254b4c66;backdrop-filter:blur(5px);display:flex;align-items:center;justify-content:center;padding:18px}
+.invite-name-card{max-width:410px}.invite-name-card .field{text-align:left;margin:0 0 18px}.invite-name-card .field input{font-size:16px}.invite-name-card>p{margin:13px 0 20px}.invite-name-card .notice-portrait{margin-bottom:17px}.invite-name-card strong{color:var(--accent-dark)}
 .notice-card{position:relative;width:min(410px,100%);max-height:calc(100dvh - 44px);overflow:auto;padding:29px;background:var(--paper);border:2px solid var(--line);border-radius:10px;text-align:center;box-shadow:7px 7px 0 #254b4c22;animation:appear .22s ease}
 .notice-card.error{border-color:color-mix(in srgb,var(--peach) 70%,var(--line))}.notice-close{position:absolute;right:9px;top:9px}
 .notice-portrait{position:relative;width:103px;height:99px;margin:0 auto 15px;background:var(--soft);border:1px dashed var(--line);border-radius:8px;display:flex;align-items:center;justify-content:center}

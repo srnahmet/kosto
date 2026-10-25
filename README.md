@@ -86,7 +86,9 @@ Demo canlı masa açmaz, sunucuya bot kaydetmez ve diğer oyuncuların oyunları
 
 Normal bekleme odasında davet koduna ek olarak **QR kod** gösterilir. Kod, aynı masanın tam davet bağlantısını içerir ve tarayıcıda üretilir; harici QR servisine bilgi gönderilmez. QR görselleri bağımsız bir okuyucuyla çözülerek doğru alan adı, `/kosto/` yolu ve masa kodu için kontrol edilir.
 
-Hata, kopyalama ve mikrofon bildirimleri piksel karakterli popup'larda gösterilir. Popup kapatılana kadar okunabilir; Escape, kapatma veya “Tamamdır” düğmesiyle kapanır ve klavye odağı geri döner. Aynı arka plan bağlantı hatası sürekli yeniden açılmaz. Formlar, tarayıcının yerleşik balonları yerine bu ortak bildirimi kullanır.
+QR veya davet bağlantısıyla yeni gelen kişiye yalnızca oyuncu adını soran bir popup açılır. Adını onayladığında doğrudan davet edilen masaya katılır; ana sayfadaki katılma formunu ayrıca kullanmaz. Aynı cihazdaki mevcut masa oturumu otomatik olarak geri yüklenir. Geçersiz davet, kullanılmış isim, dolu masa ve bağlantı sorunları uyarı popup'ıyla gösterilir.
+
+Yalnızca hata ve uyarılar piksel karakterli popup'larda gösterilir. Kopyalama başarılı olduğunda düğmede kısa süreli bir onay görünür; bilgi popup'ı açılmaz. Kopyalama başarısızsa elle kopyalama için uyarı gösterilir. Popup kapatılana kadar okunabilir; Escape, kapatma veya “Tamamdır” düğmesiyle kapanır ve klavye odağı geri döner. Aynı arka plan bağlantı hatası sürekli yeniden açılmaz. Formlar, tarayıcının yerleşik balonları yerine bu ortak bildirimi kullanır.
 
 GISM 🤝 SPTLS ortak yapımı yazısı, her ekranda demo düğmesinin yanında yer alır.
 
@@ -102,6 +104,6 @@ GISM 🤝 SPTLS ortak yapımı yazısı, her ekranda demo düğmesinin yanında 
 
 ## Doğrulama
 
-51 oyun/veri/demo/QR/karakter/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Karakter kontrolleri yerel kaydı, bozuk/engelli depolamayı, eski masaları, yalnızca kendi görünümünü değiştirme yetkisini ve rövanşta korumayı kapsar; bağımsız HTTP istemcileri de karakter paylaşımını ve yetkisiz değişikliklerin reddedilmesini doğrular. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
+53 oyun/veri/demo/QR/karakter/yayın testi ve üç bağımsız HTTP senaryosu: GitHub Pages için tarayıcı izinleri ve üyelik; üç oyunculu oyunun varsayılan tek konuşma turu, oylama, sonuç ve rövanşı; altı oyunculu iki Kösto, izleyici kurucu, eşzamanlı katılım, sinyal gizliliği ve çıkarılan kişinin erişimi. Demo senaryoları, duraklatma, aşama ilerletme, elle oynama ve bağımsız QR çözümlemesi de kapsanır. Canlı masalarda demo komutları reddedilir. Karakter kontrolleri yerel kaydı, bozuk/engelli depolamayı, eski masaları, yalnızca kendi görünümünü değiştirme yetkisini ve rövanşta korumayı kapsar; bağımsız HTTP istemcileri de karakter paylaşımını ve yetkisiz değişikliklerin reddedilmesini doğrular. Ayrıca TypeScript kontrolü ve Worker/Pages üretim derlemeleri çalıştırılır. Pages paketinin `/kosto/` yolları, fontları ve canlı sunucu verilerini içermemesi ayrıca denetlenir.
 
 Kelime havuzunun seçim ölçütleri, kategori dağılımı ve editoryal sınırları: [data/WORDS.md](data/WORDS.md).
